@@ -11,7 +11,7 @@ const BrandV2 = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="brand-heading">
-                                <h3>Thurusted by <CountUp end={200} enableScrollSpy />K+ customers</h3>
+                                <h3>Trusted by <CountUp end={200} enableScrollSpy />K+ customers</h3>
                             </div>
                             <Swiper className="brand-carousel swiper"
                                 loop={true}
