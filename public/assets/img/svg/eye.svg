@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color:#6283c3;" width="24" height="24"
+    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round" class="lucide lucide-eye h-5 w-5"
+    data-lov-id="src/components/PlatformShowcase.tsx:101:20" data-lov-name="feature.icon"
+    data-component-path="src/components/PlatformShowcase.tsx" data-component-line="101"
+    data-component-file="PlatformShowcase.tsx" data-component-name="feature.icon"
+    data-component-content="%7B%22className%22%3A%22h-5%20w-5%22%7D">
+    <path
+        d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+    </path>
+    <circle cx="12" cy="12" r="3"></circle>
+</svg>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "icon": "eye.svg",
+        "iconLight": "eye.svg",
+        "title": "Air-Gapped Discovery",
+        "text": "Complete visibility without external connections.",
+        "activeClass": ""
+    },
+    {
+        "id": 2,
+        "icon": "protection.svg",
+        "iconLight": "protection.svg",
+        "title": "Offline AI Protection",
+        "text": "Advanced threat detection that runs entirely offline.",
+        "activeClass": "active"
+    },
+    {
+        "id": 3,
+        "icon": "isolation.svg",
+        "iconLight": "isolation.svg",
+        "title": "Real-time Isolation",
+        "text": "Instant threat containment within your network.",
+        "activeClass": ""
+    },
+    {
+        "id": 4,
+        "icon": "lock.svg",
+        "iconLight": "lock.svg",
+        "title": "Zero Trust Architecture",
+        "text": "Never trust, always verify, completely air-gapped.",
+        "activeClass": ""
+    },
+    {
+        "id": 5,
+        "icon": "autonomous.svg",
+        "iconLight": "autonomous.svg",
+        "title": "Autonomous Response",
+        "text": "Self-contained incident response and remediation.",
+        "activeClass": ""
+    },
+    {
+        "id": 6,
+        "icon": "analytics.svg",
+        "iconLight": "analytics.svg",
+        "title": "Offline Analytics",
+        "text": "Complete security insights without data export.",
+        "activeClass": "active"
+    }
+]

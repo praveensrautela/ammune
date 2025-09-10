@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "icon": "1.png",
+        "iconLight": "23.png",
+        "title": "Air-Gapped Discovery",
+        "text": "No leaks. No risks. Keeps your data completely isolated and secure.",
+        "activeClass": ""
+    },
+    {
+        "id": 2,
+        "icon": "2.png",
+        "iconLight": "24.png",
+        "title": "Autonomous Protection",
+        "text": "Fully automated enforcement that generates protection policies from the very first anomaly.",
+        "activeClass": "active"
+    },
+    {
+        "id": 3,
+        "icon": "3.png",
+        "iconLight": "25.png",
+        "title": "Platform Agnostic Scalability",
+        "text": "Works everywhere. On-premises, in the cloud, on containers, and on DPUs.",
+        "activeClass": ""
+    },
+    {
+        "id": 4,
+        "icon": "4.png",
+        "iconLight": "26.png",
+        "title": "Next-Generation AI",
+        "text": "Autonomous AI that adapts, learns, and protects without manual intervention.",
+        "activeClass": ""
+    },
+    {
+        "id": 5,
+        "icon": "1.png",
+        "iconLight": "23.png",
+        "title": "Autonomous Response",
+        "text": "Self-contained incident response and remediation.",
+        "activeClass": ""
+    },
+    {
+        "id": 6,
+        "icon": "2.png",
+        "iconLight": "24.png",
+        "title": "Offline Analytics",
+        "text": "Complete security insights without data export.",
+        "activeClass": "active"
+    }
+]

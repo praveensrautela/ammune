@@ -1,0 +1,79 @@
+// import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json"
+import SplitText from "../animation/SplitText.jsx"
+import mainimg from "../../assets/images/ammunebanner.png";
+// import { Link } from "react-router-dom";
+// import { useState } from "react";
+
+interface DataType {
+    hasTitle?: boolean;
+    sectionClass?: string;
+}
+
+const ServicesV1new = ({ hasTitle, sectionClass }: DataType) => {
+
+    // const [activeServiceId, setActiveServiceId] = useState(ServicesV1Data[0]?.id || null);
+
+    // const handleMouseEnter = (id: number) => {
+    //     setActiveServiceId(id);
+    // };
+
+    // const handleMouseLeave = () => {
+    //     // Do nothing on mouse leave to keep the active item
+    // };
+
+    return (
+        <>
+            <div className={`services-style-one-area ${sectionClass ? sectionClass : ""}`}>
+
+                {/* Service Title */}
+                {hasTitle &&
+                    <div className="service-style-one-heading">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-2"></div>
+                                <div className="col-md-8 text-center">
+                                    <div className="site-heading">
+                                        <h4 className="sub-title">Platform Overview</h4>
+                                        <h2 className="title split-text">
+                                            <SplitText
+                                                delay={40}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Zero Trust. Maximum Security.
+                                            </SplitText>
+                                        </h2>
+
+                                        <SplitText
+                                            delay={5}
+                                            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                            easing="easeOutCubic"
+                                            threshold={0.2}
+                                            rootMargin="-50px"
+                                        >
+                                            AMMUNE's air-gapped platform operates entirely within your environment, providing AI-powered security without external dependencies or data exposure.
+                                        </SplitText>
+                                    </div>
+
+                                    <div className="thumb">
+                                        <img src={mainimg} alt="" width={100} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div className="container">
+                    <img src="" alt="" />
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default ServicesV1new;

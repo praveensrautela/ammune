@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "ratings": "5.0",
+        "text": "Ammune (server side) bot protection achieves superior results for bot detection (client side), Without any need for team intervention. It is a close to Zero-Touch solution that saves us a lot of effort. Ammune is fully integrated with the F5 LB.",
+        "avatar": "11.jpg",
+        "name": "Michel Dark",
+        "designation": "Envato Client"
+    },
+    {
+        "id": 2,
+        "ratings": "4.7",
+        "text": "Ammune self-managed API security solution fits our needs as we have a small team and automation is a must.",
+        "avatar": "12.jpg",
+        "name": "Alex Hales",
+        "designation": "Envato Client"
+    },
+    {
+        "id": 3,
+        "ratings": "4.9",
+        "text": "Ammune protection automation and precision as well as the API visibility are critical to our digital business.",
+        "avatar": "13.jpg",
+        "name": "Micky James",
+        "designation": "Envato Client"
+    },
+     {
+        "id": 3,
+        "ratings": "4.9",
+        "text": "Ammune applicative DDOS protection detects under the radar attacks that pass through Gov.il entire protection pipeline. It is a major reason to our decision to add ammune solution to the pipe.",
+        "avatar": "13.jpg",
+        "name": "Micky James",
+        "designation": "Envato Client"
+    }
+]
