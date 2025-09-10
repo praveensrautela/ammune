@@ -16,7 +16,7 @@ const Home1Light = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Creative Digital Agency Light</title>
+                <title>Ammune.ai - </title>
             </Helmet>
 
             <div className="smooth-scroll-container">
