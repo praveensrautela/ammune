@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import AboutV6 from "../../components/about/AboutV6";
 import BannerV8 from "../../components/banner/BannerV8";
-import BlogV2 from "../../components/blog/BlogV2";
+// import BlogV2 from "../../components/blog/BlogV2";
 // import ClientsV1 from "../../components/clients/ClientsV1";
 import FooterV1 from "../../components/footer/FooterV1";
 import HeaderV1 from "../../components/header/HeaderV1";

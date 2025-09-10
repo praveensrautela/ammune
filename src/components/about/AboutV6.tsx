@@ -1,4 +1,4 @@
-import thumb2 from "/assets/img/thumb/2.jpg";
+// import thumb2 from "/assets/img/thumb/2.jpg";
 import arrowIcon from "/assets/img/icon/arrow.png";
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
 import ServiceList from "../services/ServiceList";

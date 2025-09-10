@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "module": "ESNext",
     "moduleResolution": "Node",
     "allowJs": true,
@@ -23,3 +25,5 @@
     { "path": "./tsconfig.node.json" }
   ]
 }
+
+
