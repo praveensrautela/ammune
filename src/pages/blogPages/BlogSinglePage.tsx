@@ -15,11 +15,11 @@ const BlogSinglePage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog Single</title>
+                <title>Ammune.ai | API Security</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Blog Single' breadCrumb='blog-single' />
+                <Breadcrumb title='Blog Details' breadCrumb='Blog Details' />
                 {data && <BlogSingleContent sectionClass='default-padding-bottom' blogInfo={data} totalBlogs={BlogV3Data.length} />}
                 <DarkClass />
                 <ThemeDark />
