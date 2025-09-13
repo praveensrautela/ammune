@@ -11,7 +11,7 @@ const ServicesV6 = () => {
 
     return (
         <>
-            <div className="services-style-six-area default-padding blurry-shape-left">
+            <div className="services-style-six-area default-padding blurry-shape-left ">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
@@ -26,7 +26,7 @@ const ServicesV6 = () => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        Turn Information Into Actionable Insights
+                                       ammune™ Coverage of the API Security Flow
                                     </SplitText>
                                 </h2>
                                 <Link to="/services" className="btn-circle mt-20">

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "inline-integration.png",
+        "title": "Inline Integration",
+        "description": "The Deployment can be used in Protection or Monitoring mode"
+    },
+    {
+        "id": "2",
+        "img": "side-by-side-integration.png",
+        "title": "Side-by-Side Integration",
+        "description": "The Deployment can be used in Protection or Monitoring mode"
+    },
+    {
+        "id": "1",
+        "img": "monitoring-via-vpc-mirror.png",
+        "title": "Monitoring via VPC Mirror",
+        "description": ""
+    },
+    {
+        "id": "1",
+        "img": "side-by-side-k8s-integration.png",
+        "title": "Side-by-Side K8s Integration",
+        "description": "The Deployment can be used in Protection or Monitoring mode"
+    }
+]

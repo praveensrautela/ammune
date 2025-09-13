@@ -1,7 +1,7 @@
 import about1 from "/assets/img/about/1.jpg";
-import about4 from "/assets/img/about/4.jpg";
-import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
-import SkillProgress from "../process/SkillProgress";
+// import about4 from "/assets/img/about/4.jpg";
+// import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
+// import SkillProgress from "../process/SkillProgress";
 import SplitText from "../animation/SplitText.jsx"
 import useUpDownScrollV2 from "../../hooks/useUpDownScrollV2";
 
@@ -36,21 +36,12 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.
+                                           API abuses are the most-frequent attack vector resulting in data breaches for enterprise applications. Enterprises of all sizes trust Ammune™ by ammune.ai to keep their APIs safe.
                                         </SplitText>
 
                                     </p>
                                 </div>
-                                <div className="d-flex align-items-center">
-                                    <div className="progress-style-two">
-                                        {SkillProgressData.map(skill =>
-                                            <SkillProgress skill={skill} key={skill.id} />
-                                        )}
-                                    </div>
-                                    <div className="thumb upDownScrolSlow">
-                                        <img src={about4} alt="Image Not Found" />
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

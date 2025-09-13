@@ -1,5 +1,5 @@
-import ProcessV1Data from '../../../src/assets/jsonData/process/ProcessV2Data.json';
-import SingleProcessV1 from './SingleProcessV1';
+import ProcessV1Data from '../../../src/assets/jsonData/process/ProcessV1Data.json';
+import SingleProcessV2 from './SingleProcessV2';
 
 interface DataType {
     sectionClass?: string
@@ -11,8 +11,8 @@ const ProcessV1 = ({ sectionClass }: DataType) => {
             <div className={`process-style-one-items ${sectionClass ? sectionClass : ""}`}>
                 <div className="row">
                     {ProcessV1Data.map(process =>
-                        <div className="col-lg-3 col-md-6 process-style-one-item" key={process.id}>
-                            <SingleProcessV1 process={process} />
+                        <div className="col-lg-4 col-md-6 process-style-one-item" key={process.id}>
+                            <SingleProcessV2 process={process} />
                         </div>
                     )}
                 </div>

@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
-import icon16 from "/assets/img/icon/16.png"
-import team10 from "/assets/img/team/10.jpg"
-import team11 from "/assets/img/team/11.jpg"
-import team12 from "/assets/img/team/12.jpg"
-import team13 from "/assets/img/team/13.jpg"
+// import icon16 from "/assets/img/icon/16.png"
+import logo from '/assets/img/Logo-01.avif';
+
+
+// import team10 from "/assets/img/team/10.jpg"
+// import team11 from "/assets/img/team/11.jpg"
+// import team12 from "/assets/img/team/12.jpg"
+// import team13 from "/assets/img/team/13.jpg"
 import SplitText from "../animation/SplitText.jsx"
 
 interface DataType {
@@ -28,11 +31,11 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Building the right foundation of your business
+                                            Please check our LinkedIn page for further details.
                                         </SplitText>
                                     </h2>
-                                    <Link className="btn-animation mt-10" to="/about-2">
-                                        <i className="fas fa-arrow-right" /> <span>Know More</span>
+                                    <Link className="btn-animation mt-10" to="https://www.linkedin.com/company/ammune/?viewAsMember=true" target="_blank">
+                                        <i className="fas fa-arrow-right" /> <span>Linkedin</span>
                                     </Link>
                                 </div>
                             </div>
@@ -40,35 +43,25 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                 <div className="about-style-seven-info">
                                     <div className="d-grid">
                                         <div className="left">
-                                            <ul className="list-style-one">
-                                                <li>
-                                                    <strong>Work</strong> info@dexus.com
-                                                </li>
-                                                <li>
-                                                    <strong>Company</strong> (+012)47 333 78 901
-                                                </li>
-                                            </ul>
                                             <p>
-                                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
+                                                ammune.ai is a leading cyber security company that developed a unique AI-based API security solution.
+                                                We are constantly looking for talents to join our excellent team.
                                             </p>
                                         </div>
-                                        <div className="award-style-one">
+                                        <div className="award-style-one" style={{ background: "#18191b", border: "1px solid #333" }}>
                                             <div className="top">
                                                 <div className="icon">
-                                                    <img src={icon16} alt="Image Not Found" />
+                                                    <img src={logo} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
-                                                    <h4>Award winning creative digital agency</h4>
+                                                    <h4 className="text-white">AI-Driven Protection for Your API Ecosystem</h4>
                                                 </div>
                                             </div>
                                             <div className="user-card-two">
                                                 <div className="thumb">
-                                                    <img src={team10} alt="Image Not Found" />
-                                                    <img src={team11} alt="Image Not Found" />
-                                                    <img src={team12} alt="Image Not Found" />
-                                                    <img src={team13} alt="Image Not Found" />
-                                                    <Link to="/about-us">
-                                                        <i className="fas fa-plus" />
+
+                                                    <Link to="https://www.linkedin.com/company/ammune/?viewAsMember=true" target="_blank">
+                                                        <i className="fab fa-linkedin-in" />
                                                     </Link>
                                                 </div>
                                             </div>

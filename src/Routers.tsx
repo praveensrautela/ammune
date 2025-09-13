@@ -1,5 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import Home1 from "./pages/homePages/Home1";
+import Whyammuneai from "./pages/innerPages/Whyammuneai";
+import Platform from "./pages/innerPages/Platform";
+import Technology from "./pages/innerPages/Technology";
+import Deploymenttypes from "./pages/innerPages/Deploymenttypes";
+import Company from "./pages/innerPages/Company";
+import Career from "./pages/innerPages/Career";
+import CaseStudies from "./pages/blogPages/CaseStudies";
+
+
+
 import Home2 from "./pages/homePages/Home2";
 import Home3 from "./pages/homePages/Home3";
 import Home4 from "./pages/homePages/Home4";
@@ -92,6 +102,18 @@ const Routers = () => {
             <Routes>
 
                 <Route path='/' element={<Home1 />}></Route>
+                <Route path='/why-ammune.ai' element={<Whyammuneai />}></Route>
+                <Route path='/platform' element={<Platform />}></Route>
+                <Route path='/technology' element={<Technology />}></Route>
+                <Route path='/deployment-types' element={<Deploymenttypes />}></Route>
+                <Route path='/company' element={<Company />}></Route>
+                <Route path='/career' element={<Career />}></Route>
+                <Route path='/case-studies' element={<CaseStudies />}></Route>
+
+
+
+
+
                 <Route path='/home-2' element={<Home2 />}></Route>
                 <Route path='/home-3' element={<Home3 />}></Route>
                 <Route path='/home-4' element={<Home4 />}></Route>

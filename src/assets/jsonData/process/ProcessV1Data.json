@@ -1,30 +1,24 @@
 [
     {
         "id": 1,
-        "title": "Research",
+        "title": "API ENDPOINT DISCOVERY",
         "thumb": "5.png",
         "thumbLight": "27.png",
-        "text": "Remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+        "text": "New API endpoints are discovered by ammune™ from the traffic flow and a specific adapted AI-based protection policy is set to it, according to the licensed modules"
     },
     {
         "id": 2,
-        "title": "Concept",
+        "title": "THREAT ANALYSIS",
         "thumb": "6.png",
         "thumbLight": "28.png",
-        "text": "Terminators on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+        "text": "Traffic is analyzed by the ammune™ real-time and analytical units. Both include AI models that are adapted to the need of the different protection modules and attack types."
     },
     {
         "id": 3,
-        "title": "Implement",
+        "title": "ACTIVE PROTECTION",
         "thumb": "7.png",
         "thumbLight": "29.png",
-        "text": "Remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
-    },
-    {
-        "id": 4,
-        "title": "Handover",
-        "thumb": "8.png",
-        "thumbLight": "30.png",
-        "text": "Trensination on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+        "text": "Active protection is made by the ammune™ real-time unit, according to the threat analysis results."
     }
+  
 ]

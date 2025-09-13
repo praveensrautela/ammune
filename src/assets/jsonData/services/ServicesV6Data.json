@@ -3,24 +3,41 @@
         "id": 1,
         "icon": "9.png",
         "subTitle": "Connection",
-        "title": "Perfect UI/UX Designing",
-        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "title": "Data Validation",
+        "text": "Full visibility into your “API penetration”. Own and 3rd party, External and Internal.",
         "number": "01"
     },
     {
         "id": 2,
         "icon": "10.png",
         "subTitle": "Collaboration",
-        "title": "Social Media Marketing",
-        "text": "Regular indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "title": "Discovery & Classification",
+        "text": "Full visibility into your “API penetration”. Own and 3rd party, External and Internal.",
         "number": "02"
     },
     {
         "id": 3,
         "icon": "11.png",
         "subTitle": "Innovations",
-        "title": "Branding & Stationery",
-        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "title": "Threat Protection",
+        "text": "Resilience against malware, exploits, abuses, stolen credentials.",
         "number": "03"
+    },
+    {
+        "id": 4,
+        "icon": "11.png",
+        "subTitle": "Innovations",
+        "title": "Transport Security",
+        "text": "Traffic encryption, network Isolation, DDoS prevention, anti-bot protection, etc.",
+        "number": "04"
+    },
+    {
+        "id": 5,
+        "icon": "11.png",
+        "subTitle": "Innovations",
+        "title": "Analytics & Automation",
+        "text": "Activity monitoring, anomaly detection, automated threat mitigation.",
+        "number": "05"
     }
+
 ]

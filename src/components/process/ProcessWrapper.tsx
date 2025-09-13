@@ -1,4 +1,5 @@
-import ProcessV1 from "./ProcessV1";
+import ProcessV2 from "./ProcessV2";
+
 import SplitText from "../animation/SplitText.jsx"
 
 const ProcessWrapper = () => {
@@ -27,7 +28,7 @@ const ProcessWrapper = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <ProcessV1 />
+                    <ProcessV2 />
                 </div>
             </div>
         </>

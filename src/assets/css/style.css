@@ -19669,3 +19669,15 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 		display: none !important;
 	}
 }
+/* 
+.positionrelative{
+	position: relative;
+}
+.img-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	text-align: center;
+} */

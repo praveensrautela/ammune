@@ -54,7 +54,7 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
                     </div>
 
                     {/* Pagination */}
-                    <div className="row">
+                    <div className="row d-none">
                         <div className="col-md-12 pagi-area text-center">
                             <Pagination
                                 previousLabel={currentPage === 1 ? <i className='fas fa-ban'></i> : <i className='fas fa-angle-double-left'></i>}

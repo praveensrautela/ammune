@@ -10,7 +10,7 @@ interface DataType {
 const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
     return (
         <>
-            <div className={`services-style-two-area overflow-hidden ${sectionClass ? sectionClass : ""}`}>
+            <div className={`services-style-two-area bg-gray overflow-hidden ${sectionClass ? sectionClass : ""}`}>
 
                 {/* Section Title */}
                 {hasTitle &&
@@ -18,7 +18,7 @@ const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2">
                                 <div className="site-heading text-center">
-                                    <h4 className="sub-title">Services We Offer</h4>
+                                    <h4 className="sub-title">Platforms</h4>
                                     <h2 className="title">
                                         <SplitText
                                             delay={80}

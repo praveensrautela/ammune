@@ -4,7 +4,7 @@
         "titleFirst": "Marketing SEO",
         "titleLast": "Optimization",
         "icon": "9.png",
-        "text": "Regular at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+        "text": "Active, reliable API protection from the 1st request.",
         "number": "01"
     },
     {
@@ -12,7 +12,7 @@
         "titleFirst": "Mobile App &",
         "titleLast": "Web Development",
         "icon": "11.png",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+        "text": "Automated and autonomous operation model. Optimized to scale up.",
         "number": "02"
     },
     {
@@ -20,7 +20,7 @@
         "titleFirst": "UI/UX Design",
         "titleLast": "from Professionals",
         "icon": "12.png",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+        "text": "Compliance & Regulation. No data sharing with 3rd parties.",
         "number": "03"
     },
     {
@@ -28,7 +28,15 @@
         "titleFirst": "Access to the",
         "titleLast": "Latest Technology",
         "icon": "13.png",
-        "text": "Continued at up zealously necessary is regular breakfast. Surrounded motionless she end literature. Time is neglects supported yet melancho themselve. Biggest agencies. The user experience: the first mention of the user and its.",
+        "text": "Hybrid architectures. Supports the digital transformation trend.",
         "number": "04"
+    },
+     {
+        "id": 5,
+        "titleFirst": "Access to the",
+        "titleLast": "Latest Technology",
+        "icon": "13.png",
+        "text": "Plug & Play solution. Fully operational after installation.",
+        "number": "05"
     }
 ]

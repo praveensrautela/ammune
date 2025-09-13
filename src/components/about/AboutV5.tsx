@@ -1,10 +1,10 @@
 import illustration6 from '/assets/img/illustration/6.png';
-import thumb10 from '/assets/img/thumb/10.jpg';
+import companyai from '/assets/img/icon/companyai.webp';
 import icon12 from '/assets/img/icon/12.png';
 import icon13 from '/assets/img/icon/13.png';
 import icon31 from '/assets/img/icon/31.png';
 import icon32 from '/assets/img/icon/32.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import useUpDownScroll from '../../hooks/useUpDownScroll';
 
 interface DataType {
@@ -18,7 +18,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
         <>
             <div className={`about-style-five-area default-padding overflow-hidden ${sectionClass ? sectionClass : ""}`}>
                 <div className="shape-right-bottom upDownScrol">
-                    <img src={illustration6} alt="Image Not Found" />
+                    <img src={illustration6} alt="Image Not Found"  />
                 </div>
                 <div className="container">
                     <div className="about-five-one-info">
@@ -26,11 +26,10 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                             <div className="col-xl-4 col-lg-5">
                                 <div className="about-style-five-content" style={{ backgroundImage: 'url(/assets/img/shape/11.png)' }}>
                                     <div className="content">
-                                        <h2>670+ Project <br /> Launched</h2>
+                                        <h2>Ammune.ai</h2>
                                         <p>
-                                            Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                            ammune.ai helps organizations to protect their infrastructure, applications, customers, employees, and partners against the growing risk of API-borne attacks. With a team of experienced leaders and innovators, ammune.ai revolutionizes the way organizations protect their APIs using its awarded AI-based technology. 
                                         </p>
-                                        <Link to="#"><i className="fas fa-long-arrow-right" /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +37,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                 <div className="banner-style-five-info">
                                     <div className="d-grid">
                                         <div className="thumb">
-                                            <img src={thumb10} alt="Image Not Found" />
+                                            <img src={companyai} alt="Image Not Found" />
                                         </div>
                                         <ul className="list-style-four">
                                             <li>
@@ -47,7 +46,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                                     <img className="light-img" src={icon31} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
-                                                    <h4>Motion Graphics</h4>
+                                                    <h4>Mission</h4>
                                                     <p>
                                                         Excellence projects regus remarkably on estimating. Side in so life past are awesome dine. Melancholy themselves.
                                                     </p>
@@ -59,7 +58,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                                     <img className="light-img" src={icon32} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
-                                                    <h4>3D Rendering</h4>
+                                                    <h4>Vision</h4>
                                                     <p>
                                                         Detailing projects regus remarkably on estimating. Side in so life past are awesome dine. Melancholy themselves.
                                                     </p>
