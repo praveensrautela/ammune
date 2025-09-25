@@ -1,6 +1,6 @@
 import ServiceListData from "../../assets/jsonData/resources/CaseStudyData.json";
 
-import ServiceList from "../services/Casestudylist";
+import CaseStudylist from "../services/Casestudylist";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -35,7 +35,7 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
                                         onMouseLeave={handleMouseLeave}
                                     >
                                         <Link to={service.link} target="_blank" className={`${activeServiceId === service.id ? 'active' : ''}`}>
-                                            <ServiceList service={service} /> <i className="fa fa-pdf"></i>
+                                            <CaseStudylist service={service} /> <i className="fa fa-pdf"></i>
                                         </Link>
                                     </div>
                                 </div>

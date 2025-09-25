@@ -4,7 +4,7 @@ interface DataType {
     count?: string;
 }
 
-const ServiceList = ({ service }: { service: DataType }) => {
+const CaseStudylist = ({ service }: { service: DataType }) => {
     const { serviceName } = service
 
 
@@ -19,4 +19,4 @@ const ServiceList = ({ service }: { service: DataType }) => {
     );
 };
 
-export default ServiceList;
+export default CaseStudylist;
