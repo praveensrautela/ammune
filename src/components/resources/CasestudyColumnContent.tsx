@@ -22,6 +22,7 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
         // Do nothing on mouse leave to keep the active item
     };
 
+    
     return (
         <>
             <div className={`blog-area   blog-grid-colum ${sectionClass ? sectionClass : ""}`}>
