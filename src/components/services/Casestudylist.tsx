@@ -5,7 +5,7 @@ interface DataType {
 }
 
 const ServiceList = ({ service }: { service: DataType }) => {
-    const { serviceName, count } = service
+    const { serviceName } = service
 
 
     return (
