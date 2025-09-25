@@ -1,4 +1,4 @@
-import ServiceListData from "../../assets/jsonData/resources/CaseStudyData.json";
+import ServiceListData from "../../../src/assets/jsonData/services/CaseStudyData.json";
 
 import CaseStudylist from "../services/Casestudylist";
 import { Link } from "react-router-dom";
@@ -22,7 +22,7 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
         // Do nothing on mouse leave to keep the active item
     };
 
-    
+
     return (
         <>
             <div className={`blog-area   blog-grid-colum ${sectionClass ? sectionClass : ""}`}>
