@@ -33,7 +33,6 @@ const Routers = () => {
     return (
         <>
             <Routes>
-
                 <Route path='/' element={<Home1 />}></Route>
                 <Route path='/why-ammune.ai' element={<Whyammuneai />}></Route>
                 <Route path='/platform' element={<Platform />}></Route>
@@ -45,11 +44,11 @@ const Routers = () => {
                 <Route path='/user-guides' element={<UserGuide />}></Route>
                 <Route path='/resources' element={<Resources />}></Route>
                 <Route path='/login' element={<Login />}></Route>
+                <Route path='/partner-portal' element={<Login />}></Route>
                 <Route path='/register' element={<Register />}></Route>
 
-
                 <Route path='/blog-single/:id' element={<BlogSinglePage />}></Route>
-                
+
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
 

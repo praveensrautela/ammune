@@ -839,7 +839,15 @@ p {
 .bg-dark .sub-title {
 	font-weight: 600;
 	color: #cccccc;
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	/* border: 1px solid rgba(255, 255, 255, 0.3); */
+	border: 1px solid transparent;
+	/* transparent so gradient can show */
+	border-radius: 20px;
+	background:
+		linear-gradient(#18191b, #18191b) padding-box,
+		/* background color */
+		linear-gradient(to right, orange, yellow) border-box;
+	/* gradient border */
 }
 
 .bg-gradient .sub-title,
@@ -19669,6 +19677,7 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 		display: none !important;
 	}
 }
+
 /* 
 .positionrelative{
 	position: relative;

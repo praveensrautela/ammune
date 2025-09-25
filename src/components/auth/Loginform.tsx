@@ -70,7 +70,6 @@ const Loginform = ({ sectionClass }: DataType) => {
                                                 </div>
                                             </div>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>

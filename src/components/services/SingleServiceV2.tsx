@@ -24,7 +24,7 @@ const SingleServiceV2 = ({ service }: { service: DataType }) => {
             onMouseLeave={handleMouseLeave} // Call without index
         >
             <Link
-                to={`/service-details/${id}`}
+                to={'#'}
                 className="service-hover-item"
                 onMouseMove={(e) => handleMouseMove(e, id)}
                 onMouseLeave={() => handleMouseLeaveWrapper(id)}
