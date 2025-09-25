@@ -1,4 +1,4 @@
-import ServiceListData from "../../assets/jsonData/Resources/CaseStudyData.json";
+import ServiceListData from "../../../src/assets/jsonData/resources/CaseStudyData.json";
 
 import CaseStudylist from "../services/Casestudylist";
 import { Link } from "react-router-dom";
