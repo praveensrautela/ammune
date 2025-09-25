@@ -1,4 +1,5 @@
-import ResourceData from "../../assets/jsonData/resources/ResourceData.json"
+import ResourceData from "../../../src/assets/jsonData/services/ResourceData.json";
+
 import SplitText from "../animation/SplitText.jsx"
 import { Link } from "react-router-dom";
 import { useState } from "react";

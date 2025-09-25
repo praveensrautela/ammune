@@ -1,4 +1,4 @@
-import ServiceListData from "../../assets/jsonData/resources/UserGuideData.json";
+import ServiceListData from "../../../src/assets/jsonData/services/UserGuideData.json";
 
 import ServiceList from "../services/Casestudylist";
 import { Link } from "react-router-dom";
