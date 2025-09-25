@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "icon": "1.png",
+        "title": "User Guides",
+        "text": "Get in-depth instructions and an understanding of Ammune.ai’s API security platform.",
+        "activeClass": "",
+        "label": "Learn More",
+        "link": "/user-guides"
+    },
+    {
+        "id": 2,
+        "icon": "2.png",
+        "title": "Case Studies & White Papers",
+        "text": "Catch up with the latest research, thought leadership, and discoveries in the API security industry. Also, read detailed case studies of Ammune.ai’s client success stories.",
+        "activeClass": "active",
+        "label": "Learn More",
+        "link": "/case-studies"
+    },
+    {
+        "id": 3,
+        "icon": "3.png",
+        "title": "Trends & Events",
+        "text": "Stay up to date on what is happening in the API security industry. Get a chance to engage and collaborate with fellow experts across industry verticals. Or you could set up a partner event with us.",
+        "activeClass": "",
+        "label": "Contact Us",
+        "link": "/contact-us"
+    }
+]

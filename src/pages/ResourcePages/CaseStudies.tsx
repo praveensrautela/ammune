@@ -1,15 +1,11 @@
 import { Helmet } from "react-helmet-async";
+import CasestudyColumnContent from "../../components/resources/CasestudyColumnContent";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
+import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ThemeDark from "../../components/switcher/ThemeDark";
-import DarkClass from "../../components/classes/DarkClass";
-import Career from "../../components/about/AboutV7";
 
-
-
-
-
-const Platform = () => {
+const Casestudies = () => {
     return (
         <>
             <Helmet>
@@ -17,8 +13,8 @@ const Platform = () => {
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Career' breadCrumb='Career' />
-                <Career  />
+                <Breadcrumb title='Case Studies' breadCrumb='case-studies' />
+                <CasestudyColumnContent sectionClass="default-padding " />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>
@@ -26,4 +22,4 @@ const Platform = () => {
     );
 };
 
-export default Platform;
+export default Casestudies;

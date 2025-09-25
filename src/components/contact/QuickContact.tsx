@@ -35,10 +35,10 @@ const QuickContact = ({ sectionClass, title, titleBold }: DataType) => {
 
                                 <div className="pl-100 pl-xs-0 d-flex align-items-center">
                                     <p className="text">
-                                        Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected.
+                                        Still have more questions? Explore our FAQs section. Or feel free to reach out to us.
                                     </p>
                                     <div className="btn-large-border text-end">
-                                        <Link to="/contact-us"><i className="fas fa-long-arrow-right" /> Apply Now</Link>
+                                        <Link to="/contact-us"><i className="fas fa-long-arrow-right" /> Write to us</Link>
                                     </div>
                                 </div>
                             </div>

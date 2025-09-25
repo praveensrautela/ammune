@@ -6,7 +6,14 @@ import Technology from "./pages/innerPages/Technology";
 import Deploymenttypes from "./pages/innerPages/Deploymenttypes";
 import Company from "./pages/innerPages/Company";
 import Career from "./pages/innerPages/Career";
-import CaseStudies from "./pages/blogPages/CaseStudies";
+import CaseStudies from "./pages/ResourcePages/CaseStudies";
+import UserGuide from "./pages/ResourcePages/UserGuide";
+import Login from "./pages/AuthPages/Login";
+import Register from "./pages/AuthPages/Register";
+
+
+
+import Resources from './pages/ResourcePages/Resources';
 
 
 import ContactUsPage from "./pages/innerPages/ContactUsPage";
@@ -35,11 +42,14 @@ const Routers = () => {
                 <Route path='/company' element={<Company />}></Route>
                 <Route path='/career' element={<Career />}></Route>
                 <Route path='/case-studies' element={<CaseStudies />}></Route>
+                <Route path='/user-guides' element={<UserGuide />}></Route>
+                <Route path='/resources' element={<Resources />}></Route>
+                <Route path='/login' element={<Login />}></Route>
+                <Route path='/register' element={<Register />}></Route>
+
 
                 <Route path='/blog-single/:id' element={<BlogSinglePage />}></Route>
                 
-
-
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
 

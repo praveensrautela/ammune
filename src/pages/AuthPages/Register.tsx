@@ -1,15 +1,11 @@
 import { Helmet } from "react-helmet-async";
+import RegisterForm from "../../components/auth/RegistrationForm";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
+import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ThemeDark from "../../components/switcher/ThemeDark";
-import DarkClass from "../../components/classes/DarkClass";
-import Career from "../../components/about/AboutV7";
 
-
-
-
-
-const Platform = () => {
+const Register = () => {
     return (
         <>
             <Helmet>
@@ -17,8 +13,8 @@ const Platform = () => {
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Career' breadCrumb='Career' />
-                <Career  />
+                <Breadcrumb title='Register' breadCrumb='register' />
+                <RegisterForm sectionClass="default-padding-bottom" />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>
@@ -26,4 +22,4 @@ const Platform = () => {
     );
 };
 
-export default Platform;
+export default Register;

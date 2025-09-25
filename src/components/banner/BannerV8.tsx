@@ -1,7 +1,4 @@
-// import illustration1 from '/assets/img/illustration/1.png';
-import homevideo from '../../assets/video/homevideo.mp4';
 import { Link } from "react-router-dom";
-// import CountUp from 'react-countup';
 import SplitText from "../animation/SplitText.jsx"
 
 const BannerV8 = () => {
@@ -12,7 +9,8 @@ const BannerV8 = () => {
                 <div className="light-banner-active bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-7">
+                        <div className="col-xl-2"></div>
+                        <div className="col-xl-8">
                             <div className="banner-style-eight-heading">
                                 <div className="banner-title">
                                     <h4 className="sub-title">AI-Powered API Security</h4>
@@ -91,7 +89,7 @@ const BannerV8 = () => {
                             <Link className="btn-animation mt-10" to="/platform"><i className="fas fa-arrow-right" /> <span>View Platform </span></Link>
 
                         </div>
-                        <div className="col-xl-5">
+                        {/* <div className="col-xl-5">
                             <div className="">
                                 <video
                                     src={homevideo}
@@ -101,9 +99,8 @@ const BannerV8 = () => {
                                     playsInline
                                     style={{ width: "100%", height: "auto" }}
                                 />
-                                {/* <img src={illustration1} alt="Image Not Found" /> */}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
