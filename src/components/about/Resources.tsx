@@ -36,8 +36,9 @@ const Resources = ({ sectionClass }: DataType) => {
                                 </div>
                             </div>
 
-                            <Link className="btn-animation mt-10" target='_blank' to="https://calendly.com/yisrael-ammune/30min"><i className="fas fa-arrow-right" /> <span>Schedule a meeting  </span></Link>
-
+                            <div className="defaultbtn ">
+                                <Link className="" to="https://calendly.com/yisrael-ammune/30min"><span>Schedule a meeting </span> <i className="fas fa-arrow-right" /> </Link>
+                            </div>
                         </div>
                     </div>
 

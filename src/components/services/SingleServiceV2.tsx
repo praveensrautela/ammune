@@ -13,7 +13,7 @@ interface DataType {
 }
 
 const SingleServiceV2 = ({ service }: { service: DataType }) => {
-    const { id, icon, subTitle, title, text, listData, illustration } = service;
+    const { id, icon, subTitle, title, text, listData } = service;
 
     const { activeIndex, hoveredIndex, handleMouseEnter, handleMouseLeave, handleMouseMove, handleMouseLeaveWrapper } = useHoverEffects();
 
@@ -54,16 +54,6 @@ const SingleServiceV2 = ({ service }: { service: DataType }) => {
                     </div>
                 </div>
 
-                <div className={`service-hover-wrapper service-hover-wrapper-${id}`}
-                    style={{ opacity: 0, position: "absolute", transition: "opacity 0.3s" }}>
-                    <img
-                        className="service-hover-placeholder"
-                        src={`/assets/img/illustration/${illustration}`}
-                        width={450}
-                        height={450}
-                        alt="Image Not Found"
-                    />
-                </div>
             </Link>
         </li>
     );

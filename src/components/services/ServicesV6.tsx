@@ -1,7 +1,6 @@
 import ServicesV6Data from '../../../src/assets/jsonData/services/ServicesV6Data.json';
 import SingleServiceV6 from './SingleServiceV6';
-import arrowLongRight from "/assets/img/icon/arrow-long-right.png"
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from "../animation/SplitText.jsx";
 import { Link } from "react-router-dom";
 import useItemMoveTopEffect from '../../hooks/useItemMoveTopEffect';
 
@@ -11,7 +10,7 @@ const ServicesV6 = () => {
 
     return (
         <>
-            <div className="services-style-six-area default-padding blurry-shape-left ">
+            <div className="services-style-six-area  blurry-shape-top-left blurry-shape-right default-padding blurry-shape-left ">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
@@ -26,14 +25,12 @@ const ServicesV6 = () => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                       ammune™ Coverage of the API Security Flow
+                                        ammune™ Coverage of the API Security Flow
                                     </SplitText>
                                 </h2>
-                                <Link to="/services" className="btn-circle mt-20">
-                                    <div className="button-content">
-                                        <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Services</strong>
-                                    </div>
-                                </Link>
+                                <div className="defaultbtn ">
+                                    <Link className="" to="/services"><span>All Services </span> <i className="fas fa-arrow-right" /> </Link>
+                                </div>
                             </div>
                         </div>
 

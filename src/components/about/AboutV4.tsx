@@ -15,7 +15,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
 
     return (
         <>
-            <div className={`about-style-four-area ${sectionClass ? sectionClass : ""}`}>
+            <div className={`about-style-four-area  ${sectionClass ? sectionClass : ""}`}>
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-5">

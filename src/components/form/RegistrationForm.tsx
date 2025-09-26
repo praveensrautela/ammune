@@ -54,8 +54,8 @@ const RegistrationForm = () => {
             const result = await response.json();
 
             if (response.ok) {
-                toast.success("Registered successfully!");
-                form.reset();
+                toast.success(result.message);
+                // form.reset();
             } else {
                 toast.error(result.message || "Registration failed!");
             }

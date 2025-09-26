@@ -34,9 +34,11 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             Please check our LinkedIn page for further details.
                                         </SplitText>
                                     </h2>
-                                    <Link className="btn-animation mt-10" to="https://www.linkedin.com/company/ammune/?viewAsMember=true" target="_blank">
-                                        <i className="fas fa-arrow-right" /> <span>Linkedin</span>
-                                    </Link>
+
+                                    <div className="defaultbtn ">
+                                        <Link className="" to="https://www.linkedin.com/company/ammune/?viewAsMember=true"><span>Linkedin </span> <i className="fas fa-arrow-right" /> </Link>
+                                    </div>
+
                                 </div>
                             </div>
                             <div className="col-lg-7 pl-80 pl-md-15 pl-xs-15">
