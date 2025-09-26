@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json"
-import shape14 from "/assets/img/shape/14.png";
 import SingleTestimonialV3 from "./SingleTestimonialV3";
 import SplitText from "../animation/SplitText.jsx";
 
