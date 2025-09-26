@@ -1,8 +1,8 @@
 const ProjectIdeaV1 = () => {
     return (
         <>
-            <div className="contact-panel-bg" style={{ backgroundImage: 'url(/assets/img/about/ammunecontact.jpg)' }} />
-            <div className="container">
+            <div className="contact-panel-bg " style={{ backgroundImage: 'url(/assets/img/about/ammunecontact.jpg)' }} />
+            <div className="container blurry-shape-right blurry-shape-top-left">
                 <div className="row">
                     <div className="col-lg-7">
                         <h4 className="sub-title">Have you project in mind?</h4>

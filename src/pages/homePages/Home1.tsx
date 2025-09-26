@@ -29,6 +29,7 @@ const Home1 = () => {
             <div className="smooth-scroll-container">
                 <HeaderV1 />
                 <BannerV8 />
+                <BrandV2 />
                 <ServicesV1new sectionClass='bg-gray default-padding' hasTitle={true} />
                 <Whatweoffer sectionClass=' default-padding' hasTitle={true} />
                 <ServicesV1 sectionClass='bg-gray default-padding' hasTitle={true} />
@@ -44,7 +45,6 @@ const Home1 = () => {
                 <MultiSection />
                 {/* <BlogV2 sectionClass='bg-gray' /> */}
 
-                <BrandV2 />
 
                 <FooterV1 />
                 <DarkClass />

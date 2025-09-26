@@ -260,6 +260,51 @@ Version: 1.0
 	overflow: hidden;
 }
 
+.defaultbtn {
+	margin-top: 30px;
+}
+
+.defaultbtn a {
+	padding: 13px 40px !important;
+	border-radius: 30px;
+	font-size: 16px;
+	color: white !important;
+	border: none;
+	background: var(--color-primary) !important;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.defaultbtn a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.4s ease;
+	z-index: -1;
+}
+
+.defaultbtn a:hover::after {
+	transform: scaleX(1);
+}
+
+.bg-dark .defaultbtn a::after {
+	background: var(--white);
+}
+
+.defaultbtn a:hover {
+	color: var(--color-heading) !important;
+}
+
+
 .navbar .attr-right .attr-nav li.button.secondary a {
 	background: var(--color-optional) !important;
 }

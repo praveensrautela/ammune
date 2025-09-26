@@ -1,7 +1,7 @@
 // import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json"
 import SplitText from "../animation/SplitText.jsx"
 import mainimg from "../../assets/images/ammunebanner.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { useState } from "react";
 
 interface DataType {
@@ -30,38 +30,53 @@ const ServicesV1new = ({ hasTitle, sectionClass }: DataType) => {
                     <div className="service-style-one-heading">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-2"></div>
-                                <div className="col-md-8 text-center">
+                                <div className="col-md-12 text-center">
                                     <div className="site-heading">
                                         <h4 className="sub-title">Platform Overview</h4>
-                                        <h2 className="title split-text">
-                                            <SplitText
-                                                delay={40}
-                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                                easing="easeOutCubic"
-                                                threshold={0.2}
-                                                rootMargin="-50px"
-                                            >
-                                                Zero Trust. Maximum Security.
-                                            </SplitText>
-                                        </h2>
 
-                                        <SplitText
-                                            delay={5}
-                                            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                            easing="easeOutCubic"
-                                            threshold={0.2}
-                                            rootMargin="-50px"
-                                        >
-                                            AMMUNE's air-gapped platform operates entirely within your environment, providing AI-powered security without external dependencies or data exposure.
-                                        </SplitText>
+                                        <div className="row mt-3">
+                                            <div className="col-md-6 mt-2">
+
+                                                <h2 className="title split-text mb-2">
+                                                    <SplitText
+                                                        delay={40}
+                                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                        easing="easeOutCubic"
+                                                        threshold={0.2}
+                                                        rootMargin="-50px"
+                                                    >
+                                                        Zero Trust. Maximum Security.
+                                                    </SplitText>
+                                                </h2>
+
+                                                <SplitText
+                                                    delay={5}
+                                                    animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                    animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                    easing="easeOutCubic"
+                                                    threshold={0.2}
+                                                    rootMargin="-50px"
+                                                >
+                                                    AMMUNE's air-gapped platform operates entirely within your environment, providing AI-powered security without external dependencies or data exposure.
+                                                </SplitText>
+                                                <br />
+                                                <div className="defaultbtn ">
+                                                    <Link className="" to="/platform"><span>View Platform </span> <i className="fas fa-arrow-right" /> </Link>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-md-6 mt-2">
+                                                <div className="thumb">
+                                                    <img src={mainimg} alt="" width={100} />
+                                                </div>
+                                            </div>
+
+                                        </div>
+
                                     </div>
 
-                                    <div className="thumb">
-                                        <img src={mainimg} alt="" width={100} />
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

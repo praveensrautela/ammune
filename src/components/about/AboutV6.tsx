@@ -1,10 +1,11 @@
 // import thumb2 from "/assets/img/thumb/2.jpg";
-import arrowIcon from "/assets/img/icon/arrow.png";
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
 import ServiceList from "../services/ServiceList";
 import { Link } from "react-router-dom";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useState } from "react";
+import SplitText from "../animation/SplitText.jsx";
+
 
 interface DataType {
     sectionClass?: string;
@@ -25,7 +26,7 @@ const AboutV6 = ({ sectionClass }: DataType) => {
 
     return (
         <>
-            <div className={`about-style-six-area ${sectionClass ? sectionClass : ""}`}>
+            <div className={`about-style-six-area blurry-shape-right blurry-shape-top-left ${sectionClass ? sectionClass : ""}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
@@ -122,12 +123,29 @@ const AboutV6 = ({ sectionClass }: DataType) => {
                             <div className="about-style-six-info text-scroll-animation" ref={containerRef}>
                                 <div className="info">
                                     <div className="d-flex">
-                                        <Link to="/about-us"><img src={arrowIcon} alt="Image Not Found" /></Link>
-                                        <h2 className="title text">Why ammune.ai?</h2>
+                                        <h2 className="title split-text mb-20">
+                                            <SplitText
+                                                delay={40}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Why ammune.ai?
+                                            </SplitText>
+                                        </h2>
                                     </div>
-                                    <p className="text">
+                                    <SplitText
+                                        delay={5}
+                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                        easing="easeOutCubic"
+                                        threshold={0.2}
+                                        rootMargin="-50px"
+                                    >
                                         API abuses are the most-frequent attack vector resulting in data breaches for enterprise applications. Enterprises of all sizes trust Ammune™ by ammune.ai to keep their APIs safe
-                                    </p>
+                                    </SplitText>
                                 </div>
                                 <ul className="service-list">
                                     {ServiceListData.map(service =>

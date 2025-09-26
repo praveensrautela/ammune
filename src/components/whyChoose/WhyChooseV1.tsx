@@ -8,7 +8,7 @@ interface DataType {
 const WhyChooseV1 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <div className={`${sectionClass ? sectionClass : ""}`}>
+            <div className={`${sectionClass ? sectionClass : ""} blurry-shape-right blurry-shape-top-left `}>
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-5">

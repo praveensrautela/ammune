@@ -3,6 +3,8 @@ import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json"
 import shape14 from "/assets/img/shape/14.png";
 import SingleTestimonialV3 from "./SingleTestimonialV3";
+import SplitText from "../animation/SplitText.jsx";
+
 
 interface DataType {
     sectionClass?: string
@@ -13,15 +15,24 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
         <>
             <div className={`testimonial-style-three-area default-padding ${sectionClass ? sectionClass : ""}`}>
                 <div className="shape-style-one">
-                    <img className="upDownScrol" src={shape14} alt="Image Not Found" />
+                    {/* <img className="upDownScrol" src={shape14} alt="Image Not Found" /> */}
                 </div>
                 <div className="container">
                     <div className="testimonial-heading">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h2 className="text-large-gradient">
-                                    Testimonials
-                                </h2>
+                                <h2 className="title split-text mb-20">
+                                            <SplitText
+                                                delay={40}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                               Testimonials
+                                            </SplitText>
+                                        </h2>
                             </div>
                             <div className="col-lg-4 text-end">
                                 <div className="testimonial-three-quote">

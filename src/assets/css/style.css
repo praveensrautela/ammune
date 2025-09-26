@@ -1031,6 +1031,24 @@ p {
 		border-radius: 50%;
 		filter: blur(120px);
 	}
+
+	.blurry-shape-top-left {
+		position: relative;
+		z-index: 1;
+	}
+
+	.blurry-shape-top-left::before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: "";
+		height: 200px;
+		width: 200px;
+		background: var(--color-primary);
+		z-index: -1;
+		border-radius: 50%;
+		filter: blur(120px);
+	}
 }
 
 /* ============================================================== 
@@ -5196,7 +5214,8 @@ ul.project-meta {
 .banner-style-eight-heading h2 {
 	font-size: 50px;
 	text-transform: uppercase;
-	line-height: 1;
+	/* line-height: 1; */
+	line-height: normal;
 	margin: 0;
 }
 
@@ -5208,7 +5227,7 @@ ul.project-meta {
 .banner-style-eight-heading {
 	overflow: hidden;
 	margin-bottom: 30px;
-	margin-right: -50px;
+	margin-right: auto;
 }
 
 .banner-style-eight-area .d-grid {
@@ -19690,3 +19709,7 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 	width: 90%;
 	text-align: center;
 } */
+
+.form-control {
+	padding-left: 10px !important;
+}
