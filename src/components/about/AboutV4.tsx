@@ -36,12 +36,28 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                           API abuses are the most-frequent attack vector resulting in data breaches for enterprise applications. Enterprises of all sizes trust Ammune™ by ammune.ai to keep their APIs safe.
+                                            API abuses are the most frequent attack vector causing enterprise data breaches
+                                        </SplitText>
+
+                                    </p>
+
+                                    <p>
+                                        <SplitText
+                                            delay={5}
+                                            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                            easing="easeOutCubic"
+                                            threshold={0.2}
+                                            rootMargin="-50px"
+                                        >
+
+                                            From startups to global enterprises, Ammune™ by ammune.ai is the guardian at the gate - air-gapped, autonomous, and relentless. We block breaches before they begin, eliminate blind spots attackers exploit, and keep your APIs resilient against tomorrow’s threats. With Ammune™, security isn’t just protection - it’s confidence, continuity, and control.
+                                            API abuses are the most-frequent attack vector resulting in data breaches for enterprise applications. Enterprises of all sizes trust Ammune™ by ammune.ai to keep their APIs safe.
                                         </SplitText>
 
                                     </p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

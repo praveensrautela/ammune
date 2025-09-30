@@ -2,7 +2,7 @@
     {
         "id": 1,
         "icon": "9.png",
-        "subTitle": "Connection",
+        "subTitle": "Validation",
         "title": "Data Validation",
         "text": "Full visibility into your “API penetration”. Own and 3rd party, External and Internal.",
         "number": "01"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "icon": "10.png",
-        "subTitle": "Collaboration",
+        "subTitle": "Classification",
         "title": "Discovery & Classification",
         "text": "Full visibility into your “API penetration”. Own and 3rd party, External and Internal.",
         "number": "02"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "icon": "11.png",
-        "subTitle": "Innovations",
+        "subTitle": "Protection",
         "title": "Threat Protection",
         "text": "Resilience against malware, exploits, abuses, stolen credentials.",
         "number": "03"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "icon": "11.png",
-        "subTitle": "Innovations",
+        "subTitle": "Security",
         "title": "Transport Security",
         "text": "Traffic encryption, network Isolation, DDoS prevention, anti-bot protection, etc.",
         "number": "04"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "icon": "11.png",
-        "subTitle": "Innovations",
+        "subTitle": "Automation",
         "title": "Analytics & Automation",
         "text": "Activity monitoring, anomaly detection, automated threat mitigation.",
         "number": "05"

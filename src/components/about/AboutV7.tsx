@@ -20,8 +20,8 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="about-style-one-items">
                         <div className="row">
-                            <div className="col-lg-5">
-                                <div className="about-style-seven-left-info">
+                            <div className="col-lg-12 text-center">
+                                <div className="">
                                     <h2 className="title">
                                         <SplitText
                                             delay={20}
@@ -35,20 +35,30 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         </SplitText>
                                     </h2>
 
-                                    <div className="defaultbtn ">
-                                        <Link className="" to="https://www.linkedin.com/company/ammune/?viewAsMember=true"><span>Linkedin </span> <i className="fas fa-arrow-right" /> </Link>
-                                    </div>
 
                                 </div>
                             </div>
-                            <div className="col-lg-7 pl-80 pl-md-15 pl-xs-15">
+                            <div className="col-lg-12 mt-5">
                                 <div className="about-style-seven-info">
                                     <div className="d-grid">
                                         <div className="left">
-                                            <p>
+                                            <SplitText
+                                                delay={5}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
                                                 ammune.ai is a leading cyber security company that developed a unique AI-based API security solution.
                                                 We are constantly looking for talents to join our excellent team.
-                                            </p>
+                                            </SplitText>
+
+                                            <div className="defaultbtn text-center ">
+                                                <Link className="" to="https://www.linkedin.com/company/ammune/?viewAsMember=true"><span>Linkedin </span> <i className="fas fa-arrow-right" /> </Link>
+                                            </div>
+
+
                                         </div>
                                         <div className="award-style-one" style={{ background: "#18191b", border: "1px solid #333" }}>
                                             <div className="top">

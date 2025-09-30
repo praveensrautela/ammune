@@ -6,27 +6,18 @@ import Technology from "./pages/innerPages/Technology";
 import Deploymenttypes from "./pages/innerPages/Deploymenttypes";
 import Company from "./pages/innerPages/Company";
 import Career from "./pages/innerPages/Career";
+// import Blogs from "./pages/innerPages/Blog";
+
 import CaseStudies from "./pages/ResourcePages/CaseStudies";
 import UserGuide from "./pages/ResourcePages/UserGuide";
 import Login from "./pages/AuthPages/Login";
 import Register from "./pages/AuthPages/Register";
-
-
-
 import Resources from './pages/ResourcePages/Resources';
-
-
 import ContactUsPage from "./pages/innerPages/ContactUsPage";
 import FaqPage from "./pages/innerPages/FaqPage";
-
-
-
-
 import BlogSinglePage from "./pages/blogPages/BlogSinglePage";
-
-
-
 import NotFoundPage from "./pages/innerPages/NotFoundPage";
+import PrivateRoute from "./components/PrivateRoute";
 
 
 const Routers = () => {
@@ -40,9 +31,34 @@ const Routers = () => {
                 <Route path='/deployment-types' element={<Deploymenttypes />}></Route>
                 <Route path='/company' element={<Company />}></Route>
                 <Route path='/career' element={<Career />}></Route>
-                <Route path='/case-studies' element={<CaseStudies />}></Route>
-                <Route path='/user-guides' element={<UserGuide />}></Route>
-                <Route path='/resources' element={<Resources />}></Route>
+
+                {/* Protected Routes */}
+                <Route
+                    path='/case-studies'
+                    element={
+                        <PrivateRoute>
+                            <CaseStudies />
+                        </PrivateRoute>
+                    }
+                />
+                <Route
+                    path='/user-guides'
+                    element={
+                        <PrivateRoute>
+                            <UserGuide />
+                        </PrivateRoute>
+                    }
+                />
+                <Route
+                    path='/resources'
+                    element={
+                        <PrivateRoute>
+                            <Resources />
+                        </PrivateRoute>
+                    }
+                />
+
+                {/* Auth Pages */}
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/partner-portal' element={<Login />}></Route>
                 <Route path='/register' element={<Register />}></Route>

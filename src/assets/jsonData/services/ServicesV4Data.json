@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "titleFirst": "Marketing SEO",
-        "titleLast": "Optimization",
+        "titleFirst": "Active & Reliable",
+        "titleLast": "Protection",
         "icon": "9.png",
-        "text": "Active, reliable API protection from the 1st request.",
+        "text": "API protection from the very first request. Instant resilience against evolving threats.",
         "number": "01"
     },
     {
         "id": 2,
-        "titleFirst": "Mobile App &",
-        "titleLast": "Web Development",
+        "titleFirst": "Autonomous",
+        "titleLast": "Platform",
         "icon": "11.png",
-        "text": "Automated and autonomous operation model. Optimized to scale up.",
+        "text": "Fully automated, self-learning, and policy-enforcing without manual intervention. Always-on defense.",
         "number": "02"
     },
     {
         "id": 3,
-        "titleFirst": "UI/UX Design",
-        "titleLast": "from Professionals",
+        "titleFirst": "Air-Gapped",
+        "titleLast": "Security",
         "icon": "12.png",
-        "text": "Compliance & Regulation. No data sharing with 3rd parties.",
+        "text": "Keeps sensitive data isolated. No leaks, no risks, complete compliance with GDPR, HIPAA, and more.",
         "number": "03"
     },
     {
         "id": 4,
-        "titleFirst": "Access to the",
-        "titleLast": "Latest Technology",
+        "titleFirst": "Platform Agnostic",
+        "titleLast": "Scalability",
         "icon": "13.png",
-        "text": "Hybrid architectures. Supports the digital transformation trend.",
+        "text": "Runs seamlessly across cloud, on-prem, containers, and DPUs — scaling with your digital transformation.",
         "number": "04"
     },
-     {
+    {
         "id": 5,
-        "titleFirst": "Access to the",
-        "titleLast": "Latest Technology",
+        "titleFirst": "Next-Generation",
+        "titleLast": "AI",
         "icon": "13.png",
-        "text": "Plug & Play solution. Fully operational after installation.",
+        "text": "Adaptive, evolving intelligence that anticipates, detects, and neutralizes threats faster than traditional solutions.",
         "number": "05"
     }
 ]

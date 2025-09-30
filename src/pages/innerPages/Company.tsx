@@ -18,7 +18,7 @@ const Platform = () => {
 
             <LayoutV1>
                 <Breadcrumb title='Company' breadCrumb='Company' />
-                <AboutV5  />
+                <AboutV5 sectionClass="default-padding bg-gray" />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>

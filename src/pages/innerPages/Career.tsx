@@ -5,10 +5,6 @@ import ThemeDark from "../../components/switcher/ThemeDark";
 import DarkClass from "../../components/classes/DarkClass";
 import Career from "../../components/about/AboutV7";
 
-
-
-
-
 const Platform = () => {
     return (
         <>
@@ -18,7 +14,7 @@ const Platform = () => {
 
             <LayoutV1>
                 <Breadcrumb title='Career' breadCrumb='Career' />
-                <Career  />
+                <Career sectionClass="default-padding bg-gray" />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>

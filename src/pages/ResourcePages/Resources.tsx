@@ -8,8 +8,6 @@ import ResourceLibrary from "../../components/resources/ResourceLibrary";
 import QuickContact from "../../components/contact/QuickContact";
 
 
-
-
 const Casestudies = () => {
     return (
         <>

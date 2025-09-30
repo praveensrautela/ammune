@@ -1,12 +1,14 @@
 import { toast } from "react-toastify";
 import ENDPOINTS from "../../config/endpoints";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface FormEventHandler {
     (event: React.FormEvent<HTMLFormElement>): void;
 }
 
 const RegistrationForm = () => {
+    const navigate = useNavigate();
     const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
     // Password validation regex
@@ -55,7 +57,8 @@ const RegistrationForm = () => {
 
             if (response.ok) {
                 toast.success(result.message);
-                // form.reset();
+                localStorage.setItem("authToken", result.token);
+                navigate("/resources");
             } else {
                 toast.error(result.message || "Registration failed!");
             }
