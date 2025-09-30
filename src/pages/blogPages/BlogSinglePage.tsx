@@ -53,7 +53,10 @@ const BlogSinglePage = () => {
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Blog Details' breadCrumb='Blog Details' />
+                <Breadcrumb
+                    title={blogData?.title || "Blog Details"}
+                    breadCrumb={blogData?.title || "Blog Details"}
+                />
                 {loading && <p>Loading blog...</p>}
                 {error && <p>{error}</p>}
                 {blogData && <BlogSingleContent sectionClass='default-padding-bottom' blogInfo={blogData} />}

@@ -9,7 +9,7 @@ const ContactUsLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Contact Us Light</title>
+                <title>Ammune - Contact Us Light</title>
             </Helmet>
 
             <LayoutV1>

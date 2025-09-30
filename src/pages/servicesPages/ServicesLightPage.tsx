@@ -12,7 +12,7 @@ const ServicesLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Services Light</title>
+                <title>Ammune - Services Light</title>
             </Helmet>
 
             <LayoutV1>

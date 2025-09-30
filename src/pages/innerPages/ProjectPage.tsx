@@ -9,7 +9,7 @@ const ProjectPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Project</title>
+                <title>Ammune - Project</title>
             </Helmet>
 
             <LayoutV1>

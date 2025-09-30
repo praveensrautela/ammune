@@ -10,7 +10,7 @@ const Home13 = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Home 12</title>
+                <title>Ammune - Home 12</title>
             </Helmet>
 
             <HeaderV1 />

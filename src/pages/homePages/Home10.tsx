@@ -8,7 +8,7 @@ const Home10 = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Home 10</title>
+                <title>Ammune - Home 10</title>
             </Helmet>
 
             <div className="smooth-scroll-container">

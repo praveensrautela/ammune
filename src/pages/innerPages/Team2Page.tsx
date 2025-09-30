@@ -10,7 +10,7 @@ const Team2Page = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Team 2</title>
+                <title>Ammune - Team 2</title>
             </Helmet>
 
             <LayoutV1>

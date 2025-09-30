@@ -12,7 +12,7 @@ const About2LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - About 2 Light</title>
+                <title>Ammune - About 2 Light</title>
             </Helmet>
 
             <LayoutV1>

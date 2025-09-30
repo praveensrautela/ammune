@@ -9,7 +9,7 @@ const FaqLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Faq Light</title>
+                <title>Ammune - Faq Light</title>
             </Helmet>
 
             <LayoutV1>

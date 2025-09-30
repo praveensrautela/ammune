@@ -9,7 +9,7 @@ const BlogWithSidebarPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog With Sideba</title>
+                <title>Ammune</title>
             </Helmet>
 
             <LayoutV1>

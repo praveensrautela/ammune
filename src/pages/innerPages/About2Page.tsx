@@ -13,7 +13,7 @@ const About2Page = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - About 2</title>
+                <title>Ammune - About 2</title>
             </Helmet>
 
             <LayoutV1>

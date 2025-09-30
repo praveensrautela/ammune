@@ -9,7 +9,7 @@ const Home5 = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Home 5</title>
+                <title>Ammune - Home 5</title>
             </Helmet>
 
             <HeaderV5 />

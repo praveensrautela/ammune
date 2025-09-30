@@ -9,7 +9,7 @@ const TeamPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Team</title>
+                <title>Ammune - Team</title>
             </Helmet>
 
             <LayoutV1>

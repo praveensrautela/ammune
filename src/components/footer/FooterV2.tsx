@@ -37,7 +37,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <div className="footer-contact">
                                     <ul>
                                         <li>
-                                            <a href="mailto:someone@example.com">info@dixor.com</a>
+                                            <a href="mailto:someone@example.com">info@Ammune.com</a>
                                         </li>
                                         <li>
                                             <a href="tel:+4733378901">+47 333 78 901</a>
@@ -72,7 +72,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} Dixor. All Rights Reserved
+                                    Copyright &copy; {(new Date().getFullYear())} Ammune. All Rights Reserved
                                 </p>
                             </div>
                         </div>

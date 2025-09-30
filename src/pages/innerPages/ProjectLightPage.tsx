@@ -8,7 +8,7 @@ const ProjectLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Project Light</title>
+                <title>Ammune - Project Light</title>
             </Helmet>
 
             <LayoutV1>

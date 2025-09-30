@@ -18,7 +18,7 @@ const Home7 = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Home 7</title>
+                <title>Ammune - Home 7</title>
             </Helmet>
 
             <HeaderV2 />
