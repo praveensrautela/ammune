@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "serviceName": "Need for an API Security Whitepaper",
+        "serviceName": "Need for an API Security WhitePaper",
         "count": "01",
-        "link": "need_for_api_security.pdf"
+        "link": "Need for an API Security_WhitePaper_24-03-25 (1).pdf"
     },
     {
         "id": 2,
         "serviceName": "Ammune - White paper",
         "count": "02",
-        "link": "white_paper.pdf"
+        "link": "Need for an API Security_WhitePaper_24-03-25.pdf"
     }
 ]

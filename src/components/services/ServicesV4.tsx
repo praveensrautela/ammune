@@ -8,7 +8,7 @@ import SplitText from "../animation/SplitText.jsx"
 const ServicesV4 = () => {
     return (
         <>
-            <div className="services-style-four-area default-padding overflow-hidden blurry-shape-left">
+            <div className="services-style-four-area default-padding overflow-hidden blurry-shape-top-left blurry-shape-right">
                 <div className="shape-left-top">
                     <img src={shape10} alt="Image Not Found" />
                 </div>

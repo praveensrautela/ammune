@@ -26,7 +26,7 @@ const Loginform = ({ sectionClass }: DataType) => {
                                         <li className="mb-0">
                                             <div className="row">
                                                 <div className="col-2">
-                                                    <i className="fa fa-user"></i>
+                                                    <i className="fa fa-book fa-2x"></i>
                                                 </div>
                                                 <div className="col-10">
                                                     <p className="mb-0"><b>User Guides</b></p>
@@ -38,7 +38,7 @@ const Loginform = ({ sectionClass }: DataType) => {
                                         <li className="mb-0">
                                             <div className="row">
                                                 <div className="col-2">
-                                                    <i className="fa fa-user"></i>
+                                                    <i className="fa fa-file-alt fa-2x"></i>
                                                 </div>
                                                 <div className="col-10">
                                                     <p className="mb-0"><b>Case Studies & White Papers</b></p>
@@ -50,10 +50,10 @@ const Loginform = ({ sectionClass }: DataType) => {
                                         <li className="mb-0">
                                             <div className="row">
                                                 <div className="col-2">
-                                                    <i className="fa fa-user"></i>
+                                                    <i className="fa fa-chart-line fa-2x"></i>
                                                 </div>
                                                 <div className="col-10">
-                                                    <p className="mb-0"><b>Trends &  Events</b></p>
+                                                    <p className="mb-0"><b>Trends & Events</b></p>
                                                     <p>Stay on top of industry happenings.</p>
                                                 </div>
                                             </div>
@@ -62,7 +62,7 @@ const Loginform = ({ sectionClass }: DataType) => {
                                         <li className="mb-0">
                                             <div className="row">
                                                 <div className="col-2">
-                                                    <i className="fa fa-user"></i>
+                                                    <i className="fa fa-question-circle fa-2x"></i>
                                                 </div>
                                                 <div className="col-10">
                                                     <p className="mb-0"><b>FAQs</b></p>
@@ -70,8 +70,6 @@ const Loginform = ({ sectionClass }: DataType) => {
                                                 </div>
                                             </div>
                                         </li>
-
-
                                     </ul>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ const Casestudies = () => {
             <LayoutV1>
                 <Breadcrumb title='Resources' breadCrumb='Resources' />
                 <Resources sectionClass='bg-gray ' />
-                <ResourceLibrary sectionClass='bg-gray default-padding' hasTitle={true} />
+                <ResourceLibrary sectionClass='blurry-shape-right blurry-shape-top-left default-padding' hasTitle={true} />
                 <QuickContact title='Need' titleBold='Help?' />
 
                 <DarkClass />

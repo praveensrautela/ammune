@@ -10,7 +10,7 @@ const ServicesV6 = () => {
 
     return (
         <>
-            <div className="services-style-six-area  blurry-shape-top-left blurry-shape-right default-padding blurry-shape-left ">
+            <div className="services-style-six-area  blurry-shape-top-left blurry-shape-right default-padding  ">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">

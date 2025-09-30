@@ -1,7 +1,6 @@
 import ServiceListData from "../../../src/assets/jsonData/services/CaseStudyData.json";
 
 import CaseStudylist from "../services/Casestudylist";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 
@@ -30,16 +29,21 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
                     <div className="row">
                         {ServiceListData.map(service =>
                             <div className="col-md-4 mb-2 text-center">
-                                <div className="card bg-gray py-3">
-                                    <div className="card-body" key={service.id}
-                                        onMouseEnter={() => handleMouseEnter(service.id)}
-                                        onMouseLeave={handleMouseLeave}
-                                    >
-                                        <Link to={service.link} target="_blank" className={`${activeServiceId === service.id ? 'active' : ''}`}>
-                                            <CaseStudylist service={service} /> <i className="fa fa-pdf"></i>
-                                        </Link>
+                                <a
+                                    href={`/assets/resources/casestudy/${encodeURIComponent(service.link)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={activeServiceId === service.id ? "active" : ""}
+                                >
+                                    <div className="card bg-gray py-3">
+                                        <div className="card-body text-white" key={service.id}
+                                            onMouseEnter={() => handleMouseEnter(service.id)}
+                                            onMouseLeave={handleMouseLeave}
+                                        >
+                                            <CaseStudylist service={service} /> <i className="fa fa-file-pdf"></i>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         )}
                     </div>

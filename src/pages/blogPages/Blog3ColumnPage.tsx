@@ -9,12 +9,12 @@ const Blog3ColumnPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog 3 Column</title>
+                <title>Ammune.ai | API Security</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Blog Grid' breadCrumb='blog-3-column' />
-                <Blog3ColumnContent sectionClass='default-padding-bottom' />
+                <Breadcrumb title='Blogs' breadCrumb='blogs' />
+                <Blog3ColumnContent sectionClass='default-padding bg-gray' />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>

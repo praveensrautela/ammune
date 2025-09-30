@@ -81,7 +81,7 @@ const ResourceLibrary = ({ hasTitle, sectionClass }: DataType) => {
 
                                         {/* push button down */}
                                         <div className="mt-auto">
-                                            <Link className="btn-full" to={service.link}>
+                                            <Link className="btn-full"  to={service.link}>
                                                 {service.label} <i className="fas fa-arrow-right" />
                                             </Link>
                                         </div>

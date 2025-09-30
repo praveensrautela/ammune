@@ -1,81 +1,69 @@
+import { useEffect, useState } from "react";
 import SingleBlog3Column from './SingleBlog3Column';
-import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";
-import { useEffect, useState } from 'react';
-import Pagination from 'react-paginate';
-import { useNavigate, useParams } from 'react-router-dom';
+import ENDPOINTS from "../../config/endpoints";
+
 
 interface DataType {
-    sectionClass?: string
+    sectionClass?: string;
+}
+
+export interface BlogType {
+    id: number;
+    slug: string;
+    title: string;
+    description: string;
+    featured_image: string;
+    created_at: string;
 }
 
 const Blog3ColumnContent = ({ sectionClass }: DataType) => {
-
-    // Pagination 
-    const navigate = useNavigate();
-    const { page } = useParams<{ page?: string }>();
-
-    // Set initial page from URL
-    const currentPageNumber = Number(page) || 1;
-    const [currentPage, setCurrentPage] = useState(currentPageNumber);
-    const [itemsPerPage] = useState(6);
+    const [blogs, setBlogs] = useState<BlogType[]>([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setCurrentPage(currentPageNumber);
-    }, [currentPageNumber]);
+        const fetchBlogs = async () => {
+            try {
+                const res = await fetch(ENDPOINTS.BLOG_API);
+                const result = await res.json();
 
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const currentBlogData = BlogV3Data.slice(startIndex, endIndex);
+                if (result.success) {
+                    // Map backend data to frontend BlogType
+                    const formattedBlogs: BlogType[] = result.data.map((blog: any) => ({
+                        id: blog.id,
+                        slug: blog.slug,
+                        title: blog.title,
+                        description: blog.description,
+                        featured_image: blog.featured_image,
+                        created_at: blog.created_at,
+                    }));
+                    setBlogs(formattedBlogs);
+                } else {
+                    console.error("Failed to fetch blogs", result.message);
+                }
+            } catch (err) {
+                console.error("Error fetching blogs:", err);
+            } finally {
+                setLoading(false);
+            }
+        };
 
-    const handlePageClick = (data: any) => {
-        const selectedPage = data.selected + 1;
-        setCurrentPage(selectedPage);
+        fetchBlogs();
+    }, []);
 
-        // Update the URL dynamically
-        navigate(`/blog-3-column?page=${selectedPage}`);
-
-        setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }, 200);
-    };
-
-    const totalPages = Math.ceil(BlogV3Data.length / itemsPerPage);
+    if (loading) return <p>Loading blogs...</p>;
 
     return (
-        <>
-            <div className={`blog-area blog-grid-colum ${sectionClass ? sectionClass : ""}`}>
-                <div className="container">
-                    <div className="row">
-                        {currentBlogData.map(blog =>
-                            <div className="col-lg-4 col-md-6 mb-50" key={blog.id}>
-                                <SingleBlog3Column blog={blog} />
-                            </div>
-                        )}
-                    </div>
-
-                    {/* Pagination */}
-                    <div className="row d-none">
-                        <div className="col-md-12 pagi-area text-center">
-                            <Pagination
-                                previousLabel={currentPage === 1 ? <i className='fas fa-ban'></i> : <i className='fas fa-angle-double-left'></i>}
-                                nextLabel={currentPage === totalPages ? <i className='fas fa-ban'></i> : <i className='fas fa-angle-double-right'></i>}
-                                breakLabel={'...'}
-                                pageCount={Math.ceil(BlogV3Data.length / itemsPerPage)}
-                                marginPagesDisplayed={2}
-                                pageRangeDisplayed={5}
-                                onPageChange={handlePageClick}
-                                containerClassName={'pagination text-center'}
-                                activeClassName={'active'}
-                                pageClassName={'page-item'}
-                                pageLinkClassName={'page-link'}
-                                previousLinkClassName={'page-link'}
-                                nextLinkClassName={'page-link'}
-                            />
+        <div className={`blog-area blog-grid-colum ${sectionClass ? sectionClass : ""}`}>
+            <div className="container">
+                <div className="row">
+                    {blogs.map(blog =>
+                        <div className="col-lg-4 col-md-6 mb-50" key={blog.id}>
+                            <SingleBlog3Column blog={blog} />
                         </div>
-                    </div>
+                    )}
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

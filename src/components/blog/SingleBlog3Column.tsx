@@ -1,43 +1,37 @@
 import { Link } from "react-router-dom";
+import { BlogType } from "./Blog3ColumnContent";
+import ENDPOINTS from "../../config/endpoints";
 
-interface DataType {
-    id?: number;
-    thumb?: string;
-    title2?: string;
-    date?: string;
-    author?: string;
-}
 
-const SingleBlog3Column = ({ blog }: { blog: DataType }) => {
-    const { id, thumb, title2, date, author } = blog
+
+const SingleBlog3Column = ({ blog }: { blog: BlogType }) => {
+    const { slug, title, description, featured_image } = blog;
 
     return (
-        <>
-            <div className="home-blog-style-one">
-                <div className="thumb">
-                    <Link to={`/blog-single/${id}`}>
-                        <img src={`/assets/img/blog/${thumb}`} width={800} height={600} alt="Thumb" />
+        <div className="home-blog-style-one">
+            <div className="thumb">
+                <Link to={`/blog/${slug}`}>
+                    <img
+                        src={`${ENDPOINTS.BLOG_IMAGE_URL}/blogs/${featured_image}`}
+                        width={800}
+                        height={600}
+                        alt={title}
+                    />
+                </Link>
+                <div className="info">
+                    <h2 className="post-title">
+                        <Link to={`/blog/${slug}`}>{title}</Link>
+                    </h2>
+                    <div
+                        className="descriptionblog"
+                        dangerouslySetInnerHTML={{ __html: description }}
+                    />
+                    <Link to={`/blog/${slug}`} className="button-regular">
+                        Continue Reading <i className="fas fa-long-arrow-right" />
                     </Link>
-                    <div className="info">
-                        <div className="meta">
-                            <ul>
-                                <li>
-                                    <Link to="#">{author}</Link>
-                                </li>
-                                <li>{date}</li>
-                            </ul>
-                        </div>
-                        <h2 className="post-title">
-                            <Link to={`/blog-single/${id}`}>{title2}</Link>
-                        </h2>
-                        <Link to={`/blog-single/${id}`} className="button-regular">
-                            Continue Reading
-                            <i className="fas fa-long-arrow-right" />
-                        </Link>
-                    </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

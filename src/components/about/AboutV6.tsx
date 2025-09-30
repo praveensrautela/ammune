@@ -30,7 +30,7 @@ const AboutV6 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
-                            <div className="thumb-style-four">
+                            <div className="thumb-style-four svgimg">
                                 {/* <img src="" alt="Image Not Found" /> */}
                                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 355 376.678" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 383" height="383" width="355" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
                                     <g>

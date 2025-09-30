@@ -44,10 +44,9 @@ const LoginForm = () => {
 
             const result = await response.json();
 
-            if (response.ok) {
+            if (result.success) {
                 toast.success(result.message || "Login successful!");
                 localStorage.setItem("authToken", result.token);
-
                 navigate("/resources");
             } else {
                 toast.error(result.message || "Login failed!");
@@ -100,7 +99,7 @@ const LoginForm = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <button type="submit" name="submit" id="submit">
-                            <i className="fa fa-paper-plane" /> Login
+                            Login
                         </button>
                     </div>
                 </div>

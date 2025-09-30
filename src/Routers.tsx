@@ -6,7 +6,7 @@ import Technology from "./pages/innerPages/Technology";
 import Deploymenttypes from "./pages/innerPages/Deploymenttypes";
 import Company from "./pages/innerPages/Company";
 import Career from "./pages/innerPages/Career";
-// import Blogs from "./pages/innerPages/Blog";
+import Blogs from "./pages/blogPages/Blog3ColumnPage";
 
 import CaseStudies from "./pages/ResourcePages/CaseStudies";
 import UserGuide from "./pages/ResourcePages/UserGuide";
@@ -62,12 +62,10 @@ const Routers = () => {
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/partner-portal' element={<Login />}></Route>
                 <Route path='/register' element={<Register />}></Route>
-
-                <Route path='/blog-single/:id' element={<BlogSinglePage />}></Route>
-
+                <Route path='/blogs' element={<Blogs />}></Route>
+                <Route path='/blog/:slug' element={<BlogSinglePage />}></Route>
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
-
                 <Route path='*' element={<NotFoundPage />}></Route>
             </Routes>
         </>
