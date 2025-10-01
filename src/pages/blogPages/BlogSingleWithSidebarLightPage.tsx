@@ -14,7 +14,7 @@ const BlogSingleWithSidebarLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog Single With Sidebar Light</title>
+                <title>Ammune</title>
             </Helmet>
 
             <LayoutV1>

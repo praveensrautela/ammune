@@ -33,18 +33,18 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                                     <li><Link to="/technology">Technology</Link></li>
                                     <li><Link to="/resources">Resources</Link></li>
                                     <li><Link to="/company">Company</Link></li>
-                                    <li><Link to="/careers">Careers</Link></li>
+                                    <li><Link to="/career">Careers</Link></li>
                                 </ul>
                             </div>
 
                             <div className="col-lg-3 footer-item text-center about">
                                 <h4 className="widget-title">Case Studies</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="">Protecting APIs in AWS cloud</Link></li>
-                                    <li><Link to="/platform">Protecting APIs in Legacy Environments</Link></li>
-                                    <li><Link to="/technology">Protection APIs of an MSSP</Link></li>
-                                    <li><Link to="/resources">Blocking Under the Radar API attacks</Link></li>
-                                    <li><Link to="/company">Open Banking</Link></li>
+                                    <li><Link to="#">Protecting APIs in AWS cloud</Link></li>
+                                    <li><Link to="#">Protecting APIs in Legacy Environments</Link></li>
+                                    <li><Link to="#">Protection APIs of an MSSP</Link></li>
+                                    <li><Link to="#">Blocking Under the Radar API attacks</Link></li>
+                                    <li><Link to="#">Open Banking</Link></li>
                                 </ul>
                             </div>
 
