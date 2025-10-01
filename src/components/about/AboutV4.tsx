@@ -1,4 +1,4 @@
-import about1 from "/assets/img/about/1.jpg";
+import about1 from "../../assets/images/ammunebanner.png";
 // import about4 from "/assets/img/about/4.jpg";
 // import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
 // import SkillProgress from "../process/SkillProgress";
