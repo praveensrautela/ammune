@@ -29,7 +29,7 @@ const ServicesV6 = () => {
                                     </SplitText>
                                 </h2>
                                 <div className="defaultbtn ">
-                                    <Link className="" to="/services"><span>All Services </span> <i className="fas fa-arrow-right" /> </Link>
+                                    <Link className="" to="/platform"><span>All Services </span> <i className="fas fa-arrow-right" /> </Link>
                                 </div>
                             </div>
                         </div>

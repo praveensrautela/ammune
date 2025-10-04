@@ -13,6 +13,8 @@ import { useState } from 'react';
 import CountUp from 'react-countup';
 import useScrollAnimation from '../../hooks/useScrollAnimation';
 import useThumbParallax from '../../hooks/useThumbParallax';
+import SplitText from "../animation/SplitText.jsx";
+
 
 
 interface DataType {
@@ -52,21 +54,48 @@ const AboutV1 = ({ lightMode }: DataType) => {
                         </div>
                         <div className="col-lg-8 offset-lg-1">
                             <div className="about-style-one-info text-scroll-animation" ref={containerRef}>
-                                <p className="text">
-                                    <h2>
+                                <h2 className='text-white text-left'>
+                                    <SplitText
+                                        delay={20}
+                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                        easing="easeOutCubic"
+                                        threshold={0.2}
+                                        rootMargin="-50px"
+                                    >
                                         ammune™ Actively Protecting APIs from the 1st Request
-                                    </h2>
+                                    </SplitText>
+                                </h2>
+
+                                <p className=" text-white text-left mt-3">
+                                    <SplitText
+                                        delay={5}
+                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                        easing="easeOutCubic"
+                                        threshold={0.2}
+                                        rootMargin="-50px"
+                                    >
+                                        ammune™ presents an advanced concept of API security technology, solely based on AI/ML. It is built at a “bottom-up” approach. Each API, at each protection layer, is protected by a separate “micro-AI/ML machine” (resulting in thousands of them). The protection layer is completed by a robust AI/ML model that protects all APIs throughout, based on the micro-machines’ output.
+                                    </SplitText>
                                 </p>
-                                <p className="text">
-                                    ammune™ presents an advanced concept of API security technology, solely based on AI/ML. It is built at a “bottom-up” approach. Each API, at each protection layer, is protected by a separate “micro-AI/ML machine” (resulting in thousands of them). The protection layer is completed by a robust AI/ML model that protects all APIs throughout, based on the micro-machines’ output.
-                                </p>
-                                <p className="text">
-                                    The ammune™ platform technology was proven to be very accurate in finding threats in years of production experience, while consistently protecting the user experience at high quality.
+                                <p className=" text-white text-left">
+                                    <SplitText
+                                        delay={5}
+                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                        easing="easeOutCubic"
+                                        threshold={0.2}
+                                        rootMargin="-50px"
+                                    >
+                                        The ammune™ platform technology was proven to be very accurate in finding threats in years of production experience, while consistently protecting the user experience at high quality.
+                                    </SplitText>
+
                                 </p>
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
             <ModalVideo channel='youtube' isOpen={isOpen} videoId="izTDbJ23_ws" onClose={() => setOpen(false)} />
