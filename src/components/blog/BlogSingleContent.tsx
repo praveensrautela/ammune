@@ -1,4 +1,5 @@
 import Animate from "../animation/Animate";
+import ENDPOINTS from "../../config/endpoints";
 
 interface BlogSingleProps {
     blogInfo?: {
@@ -27,7 +28,7 @@ const BlogSingleContent = ({ blogInfo, sectionClass }: BlogSingleProps) => {
                                     <div className="blog-item-box">
                                         <div className="thumb">
                                             <img
-                                                src={`http://localhost/ammuneai/static/blogs/${featured_image}`}
+                                                src={`${ENDPOINTS.BLOG_IMAGE_URL}/blogs/${featured_image}`}
                                                 width={1075}
                                                 height={546}
                                                 alt={title}
