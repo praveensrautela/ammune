@@ -61,7 +61,7 @@ const BannerV8 = () => {
                                 </div>
 
                                 <div className="defaultbtn supportcenter">
-                                    <Link className="" to="/https://support.ammune.ai/portal/en/home" target="_blank"><span>Suport Center </span> <i className="fas fa-arrow-right" /> </Link>
+                                    <Link className="" to="https://support.ammune.ai/portal/en/home" target="_blank"><span>Suport Center </span> <i className="fas fa-arrow-right" /> </Link>
                                 </div>
                             </div>
 
