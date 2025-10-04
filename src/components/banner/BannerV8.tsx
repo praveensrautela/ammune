@@ -55,11 +55,18 @@ const BannerV8 = () => {
                                 Deploy AI-powered security that operates completely offline. AMMUNE's air-gapped architecture ensures your data never leaves your environment
                             </SplitText>
                             <br />
-                            <div className="defaultbtn ">
-                                <Link className="" to="/platform"><span>View Platform </span> <i className="fas fa-arrow-right" /> </Link>
+                            <div className="d-flex justify-content-center gap-2">
+                                <div className="defaultbtn ">
+                                    <Link className="" to="/platform"><span>View Platform </span> <i className="fas fa-arrow-right" /> </Link>
+                                </div>
+
+                                <div className="defaultbtn supportcenter">
+                                    <Link className="" to="/https://support.ammune.ai/portal/en/home" target="_blank"><span>Suport Center </span> <i className="fas fa-arrow-right" /> </Link>
+                                </div>
                             </div>
+
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
