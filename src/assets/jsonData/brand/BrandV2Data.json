@@ -1,43 +1,43 @@
 [
     {
         "id": 1,
-        "thumb": "partner1.jpg"
+        "thumb": "partner1.png"
     },
     {
         "id": 2,
-        "thumb": "partner2.jpg"
+        "thumb": "partner2.png"
     },
     {
         "id": 3,
-        "thumb": "partner3.jpg"
+        "thumb": "partner3.png"
     },
     {
         "id": 4,
-        "thumb": "partner4.jpg"
+        "thumb": "partner4.png"
     },
     {
         "id": 5,
-        "thumb": "partner5.jpg"
+        "thumb": "partner5.png"
     },
     {
         "id": 6,
-        "thumb": "partner1.jpg"
+        "thumb": "partner1.png"
     },
     {
         "id": 7,
-        "thumb": "partner2.jpg"
+        "thumb": "partner2.png"
     },
     {
         "id": 8,
-        "thumb": "partner3.jpg"
+        "thumb": "partner3.png"
     },
     {
         "id": 9,
-        "thumb": "partner4.jpg"
+        "thumb": "partner4.png"
     },
     {
         "id": 10,
-        "thumb": "partner5.jpg"
+        "thumb": "partner5.png"
     }
     
 ]

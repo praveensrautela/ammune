@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import SplitText from "../animation/SplitText.jsx";
-// import Homeimage from "../"
+import Homeimage from "../../../public/assets/img/banner/banner-new.jpg";
 
 
 const BannerV8 = () => {
     return (
         <>
             <div className="banner-style-eight-area bg-cover blurry-shape-right blurry-shape-top-left"
-                style={{ backgroundImage: 'url(/assets/img/shape/3.jpg)' }}>
+               >
                 <div className="light-banner-active bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-2"></div>
                         <div className="col-xl-8 text-center">
+                            <img src={Homeimage} alt="" />
+                            <br /><br />
                             <div className="banner-style-eight-heading">
                                 <div className="banner-title">
                                     <h4 className="sub-title">AI-Powered API Security</h4>
