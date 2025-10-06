@@ -7,14 +7,15 @@ const BannerV8 = () => {
     return (
         <>
             <div className="banner-style-eight-area bg-cover blurry-shape-right blurry-shape-top-left"
-               >
+                  style={{
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${Homeimage})`,
+  }}>
                 <div className="light-banner-active bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-2"></div>
                         <div className="col-xl-8 text-center">
-                            <img src={Homeimage} alt="" />
-                            <br /><br />
+                            {/* <img src={Homeimage} alt="" /> */}
                             <div className="banner-style-eight-heading">
                                 <div className="banner-title">
                                     <h4 className="sub-title">AI-Powered API Security</h4>
