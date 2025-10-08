@@ -1014,7 +1014,8 @@ p {
 		filter: blur(120px);
 	}
 
-	.blurry-shape-right {
+	.blurry-shape-right,
+	.blurry-shape-home-right {
 		position: relative;
 		z-index: 1;
 	}
@@ -1032,9 +1033,36 @@ p {
 		filter: blur(120px);
 	}
 
-	.blurry-shape-top-left {
+	.blurry-shape-home-right::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		content: "";
+		height: 400px;
+		width: 350px;
+		background: var(--color-primary);
+		z-index: -1;
+		border-radius: 50%;
+		filter: blur(180px);
+	}
+
+	.blurry-shape-top-left,
+	.blurry-shape-home-top-left {
 		position: relative;
 		z-index: 1;
+	}
+
+	.blurry-shape-home-top-left::before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: "";
+		height: 300px;
+		width: 300px;
+		background: var(--color-primary);
+		z-index: -1;
+		border-radius: 50%;
+		filter: blur(150px);
 	}
 
 	.blurry-shape-top-left::before {

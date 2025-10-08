@@ -6,7 +6,7 @@ import Homeimage from "../../../public/assets/img/banner/banner-new.jpg";
 const BannerV8 = () => {
     return (
         <>
-            <div className="banner-style-eight-area bg-cover blurry-shape-right blurry-shape-top-left"
+            <div className="banner-style-eight-area bg-cover blurry-shape-home-right blurry-shape-home-top-left"
                 style={{ background: "black" }} >
                 <div className="light-banner-active  bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
                 <div className="container">
