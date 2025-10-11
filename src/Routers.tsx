@@ -31,7 +31,7 @@ const Routers = () => {
                 <Route path='/technology' element={<Technology />}></Route>
                 <Route path='/deployment-types' element={<Deploymenttypes />}></Route>
                 <Route path='/company' element={<Company />}></Route>
-                <Route path='/career' element={<Career />}></Route>
+                <Route path='/careers' element={<Career />}></Route>
 
                 {/* Protected Routes */}
                 <Route
@@ -65,7 +65,7 @@ const Routers = () => {
                 <Route path='/register' element={<Register />}></Route>
                 <Route path='/blogs' element={<Blogs />}></Route>
                 <Route path='/blog/:slug' element={<BlogSinglePage />}></Route>
-                <Route path='/contact-us' element={<ContactUsPage />}></Route>
+                <Route path='/contact' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
                 <Route path='/press-releases' element={<Pressreleas />}></Route>
                 <Route path='/terms-and-conditions' element={<Termsconditions />}></Route>

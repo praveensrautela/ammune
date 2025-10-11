@@ -45,7 +45,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                     <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Company</Link>
                     <ul className="dropdown-menu">
                         <li><Link to="/company">About Us </Link></li>
-                        <li><Link to="/career">Careers</Link></li>
+                        <li><Link to="/careers">Careers</Link></li>
                         <li><Link to="/press-releases">Press Releases</Link></li>
                         <li><Link to="/blogs">Blogs</Link></li>
                     </ul>

@@ -49,7 +49,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <h4 className="widget-title">Useful Link</h4>
                                 <ul className="useful-link">
                                     <li><Link to="/about-us">About Us</Link></li>
-                                    <li><Link to="/contact-us">Contact</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/faq">FAQS</Link></li>
                                     <li><Link to="/services">Services</Link></li>
                                     <li><Link to="/about-2">Term & Conditions</Link></li>

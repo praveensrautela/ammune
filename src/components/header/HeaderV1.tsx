@@ -39,7 +39,7 @@ const HeaderV1 = () => {
                             <div className="attr-nav flex">
                                 <ul>
                                     <li className="button">
-                                        <Link to="/contact-us">Get in touch</Link>
+                                        <Link to="/contact">Get in touch</Link>
                                     </li>
                                 </ul>
                             </div>

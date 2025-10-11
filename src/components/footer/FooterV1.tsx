@@ -34,7 +34,7 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                                     <li><Link to="/technology">Technology</Link></li>
                                     <li><Link to="/resources">Resources</Link></li>
                                     <li><Link to="/company">Company</Link></li>
-                                    <li><Link to="/career">Careers</Link></li>
+                                    <li><Link to="/careers">Careers</Link></li>
                                 </ul>
                             </div>
 

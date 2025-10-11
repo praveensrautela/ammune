@@ -47,7 +47,7 @@ const QuickContact = ({ sectionClass }: DataType) => {
 
                                     <div className=" text-center">
                                         <div className="defaultbtn ">
-                                            <Link className="" to="/contact-us"><span>Write to us </span> <i className="fas fa-arrow-right" /> </Link>
+                                            <Link className="" to="/contact"><span>Write to us </span> <i className="fas fa-arrow-right" /> </Link>
                                         </div>
                                     </div>
                                 </div>
