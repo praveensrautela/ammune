@@ -5,6 +5,7 @@ import logoLight from '/assets/img/Logo-01.avif'
 import logo from '/assets/img/Logo-01.avif';
 import awardimg from '/assets/img/ammunefooter.png';
 
+
 interface DataType {
     sectionClass?: string;
 }
@@ -28,7 +29,7 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-3 footer-item about text-center">
                                 <h4 className="widget-title">Useful Link</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="">Why ammune.ai</Link></li>
+                                    <li><Link to="/why-ammuneai">Why ammune.ai</Link></li>
                                     <li><Link to="/platform">Platform</Link></li>
                                     <li><Link to="/technology">Technology</Link></li>
                                     <li><Link to="/resources">Resources</Link></li>
@@ -58,12 +59,15 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                 <div className="footer-bottom">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-4">
                                 <ul className="footer-social">
                                     <FooterSocial />
                                 </ul>
                             </div>
-                            <div className="col-lg-6 text-end">
+                            <div className="col-lg-4 text-center">
+                                <Link to="/terms-and-conditions">Terms of service </Link> | <Link to="/privacy-policy"> Privacy Policy</Link>
+                            </div>
+                            <div className="col-lg-4 text-end">
                                 <p>
                                     Copyright &copy; {(new Date().getFullYear())} Ammune.ai. All Rights Reserved
                                 </p>
