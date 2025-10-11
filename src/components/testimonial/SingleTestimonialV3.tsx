@@ -23,12 +23,12 @@ const SingleTestimonialV3 = ({ testimonial }: { testimonial: DataType }) => {
                 </div>
                 <p>{text}</p>
                 <div className="tm-provider">
-                    <div className="thumb">
+                    <div className="thumb d-none">
                         <img src={`/assets/img/team/${avatar}`} alt="Image Not Found" width={200} height={200} />
                     </div>
                     <div className="content">
                         <h4>{name}</h4>
-                        <span>{designation}</span>
+                        <span className='d-none'>{designation}</span>
                     </div>
                 </div>
             </div>
