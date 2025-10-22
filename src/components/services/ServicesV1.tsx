@@ -29,7 +29,7 @@ const ServicesV1 = ({ hasTitle, sectionClass }: DataType) => {
                     <div className="service-style-one-heading">
                         <div className="container">
                             <div className="row">
-                                <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 text-center">
+                                <div className="col-xl-12 text-center">
                                     <div className="site-heading">
                                         <h4 className="sub-title">Solution</h4>
                                         <h2 className="title split-text">

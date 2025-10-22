@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SplitText from "../animation/SplitText.jsx";
-import Homeimage from "../../../public/assets/img/banner/banner-new.jpg";
+// import Homeimage from "../../../public/assets/img/banner/banner-new.jpg";
+import aiimage from "../../assets/images/hero-category-bg2.svg";
 
 
 const BannerV8 = () => {
@@ -13,7 +14,7 @@ const BannerV8 = () => {
                     <div className="row">
                         <div className="col-xl-2"></div>
                         <div className="col-xl-8 text-center">
-                            <img src={Homeimage} alt="" style={{ height: "40vh" }} />
+                            <img src={aiimage} alt="" style={{ height: "40vh" }} />
                             <div className="banner-style-eight-heading mt-2">
                                 <div className="banner-title">
                                     <h4 className="sub-title">AI-Powered API Security</h4>
@@ -27,22 +28,10 @@ const BannerV8 = () => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Zero Trust
+                                            Zero Trust  Air Gapped Security
                                         </SplitText>
                                     </h2>
-
-                                    <h2 >
-                                        <SplitText
-                                            delay={150}
-                                            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                            easing="easeOutCubic"
-                                            threshold={0.2}
-                                            rootMargin="-50px"
-                                        >
-                                            Air Gapped Security
-                                        </SplitText>
-                                    </h2>
+                                  
                                 </div>
                             </div>
                             <SplitText

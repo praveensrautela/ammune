@@ -7746,7 +7746,7 @@ ul.service-list li a:hover {
 }
 
 .about-style-six-info ul.service-list {
-	margin-left: -230px;
+	margin-left: 0px;
 	margin-top: 50px;
 }
 
@@ -11101,8 +11101,14 @@ h2.text-large-gradient {
 
 .testimonial-style-three-carousel .testimonial-control {
 	height: 60px;
-	position: relative;
-	margin-top: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 9999999999999;
+	opacity: 1;
+
 }
 
 .testimonial-style-three-carousel .testimonial-control .swiper-button-prev {
@@ -11134,7 +11140,8 @@ h2.text-large-gradient {
 }
 
 .testimonial-style-three-carousel .testimonial-control .swiper-pagination {
-	display: grid;
+	/* display: grid; */
+	display: none;
 	grid-column-gap: 30px;
 	grid-auto-columns: minmax(0, 1fr);
 	grid-auto-flow: column;
@@ -19795,4 +19802,30 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 		padding: 13px 20px !important;
 	}
 
+}
+
+.swiper-wrapper {
+	position: relative;
+}
+
+
+/* make swiper wrapper behave like a flex row */
+.testimonial-style-three-carousel .swiper-wrapper {
+	display: flex;
+	align-items: stretch;
+	/* all slides same height */
+}
+
+/* ensure each swiper slide grows to full height */
+.testimonial-style-three-carousel .swiper-slide {
+	display: flex;
+	height: auto !important;
+	/* override inline heights from Swiper */
+}
+
+/* if SingleTestimonialV3 has a card container, stretch that too */
+.testimonial-style-three-carousel .swiper-slide>* {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 }
