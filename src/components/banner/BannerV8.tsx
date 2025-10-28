@@ -14,7 +14,7 @@ const BannerV8 = () => {
                     <div className="row">
                         <div className="col-xl-2"></div>
                         <div className="col-xl-8 text-center">
-                            <img src={aiimage} alt="" style={{ height: "40vh" }} />
+                            <img src={aiimage} alt="" className="bannerimg" />
                             <div className="banner-style-eight-heading mt-2">
                                 <div className="banner-title">
                                     <h4 className="sub-title">AI-Powered API Security</h4>

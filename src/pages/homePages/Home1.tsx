@@ -25,7 +25,6 @@ const Home1 = () => {
             <Helmet>
                 <title>Ammune.ai | API Security</title>
             </Helmet>
-
             <div className="smooth-scroll-container">
                 <HeaderV1 />
                 <BannerV8 />

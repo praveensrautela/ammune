@@ -19,7 +19,9 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-7">
                             <div className="choose-us-style-one">
                                 <div className="pl-80 pl-md-0 pl-xs-0">
-                                    <h4 className="sub-title">Why Ammune.ai</h4>
+                                    {/* <div className="text-center"> */}
+                                    <h4 className="sub-title ">Why Ammune.ai</h4>
+                                    {/* </div> */}
                                     <h2 className="title">Ammune.ai Technology</h2>
                                     <div className="faq-style-one accordion mt-30" id="faqAccordion">
                                         <div className="accordion-item">

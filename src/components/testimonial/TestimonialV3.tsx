@@ -56,7 +56,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-12">
                             <Swiper className="testimonial-style-three-carousel swiper"
                                 loop={true}
-                                slidesPerView={3}
+                                slidesPerView={1}
                                 spaceBetween={30}
                                 autoplay={false}
                                 pagination={{
