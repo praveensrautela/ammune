@@ -3,7 +3,7 @@ import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
 import logoLight from '/assets/img/Logo-01.avif'
 import logo from '/assets/img/Logo-01.avif';
-import awardimg from '/assets/img/footeraward.jpg';
+import awardimg from '/assets/img/awardfooter.png';
 
 interface DataType {
     sectionClass?: string;

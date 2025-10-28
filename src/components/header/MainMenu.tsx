@@ -16,15 +16,8 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                 <li>
                     <Link to="/why-ammuneai" >Why Ammune.AI</Link>
                 </li>
-                <li className="dropdown">
-                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Platform</Link>
-                    <ul className="dropdown-menu">
-                        <li><Link to="/platform">API Discovery</Link></li>
-                        <li><Link to="/platform">API‑WAF Module</Link></li>
-                        <li><Link to="/platform">API‑BOT Module</Link></li>
-                        <li><Link to="/platform">API‑DDoS Module</Link></li>
-                        <li><Link to="/platform">API‑BL Module</Link></li>
-                    </ul>
+                 <li>
+                    <Link to="/why-ammuneai" >Platform</Link>
                 </li>
                 <li className="dropdown">
                     <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Technology</Link>

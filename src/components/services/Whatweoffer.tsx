@@ -27,11 +27,13 @@ const Whatweoffer = ({ }: DataType) => {
                         {ServicesV1Data.slice(0, 6).map(service =>
                             <div className="col-lg-4 col-md-6 text-center" key={service.id}>
                                 <div className="item">
-                                    <img
-                                        src={`/assets/img/svg/${service.icon}`}
-                                        alt={service.title}
-                                        style={{ height: "auto", marginBottom: 0 }}
-                                    />
+                                    <div className="iconimg">
+                                        <img
+                                            src={`/assets/img/svg/${service.icon}`}
+                                            alt={service.title}
+                                            style={{ height: "auto", marginBottom: 0 }}
+                                        />
+                                    </div>
                                     <h4>{service.title}</h4>
                                     <p>{service.text}</p>
                                 </div>
