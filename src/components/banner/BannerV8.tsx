@@ -14,10 +14,10 @@ const BannerV8 = () => {
                 }}
             >
                 <div className="light-banner-active  bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
-                <div className="container mt-5">
-                    <div className="row mt-5">
+                <div className="container herobannernew" >
+                    <div className="row ">
                         <div className="col-xl-2"></div>
-                        <div className="col-xl-8 text-center mt-5">
+                        <div className="col-xl-8 text-center ">
                             {/* <img src={aiimage} alt="" className="bannerimg" /> */}
                             <div className="banner-style-eight-heading mt-2">
                                 <div className="banner-title">

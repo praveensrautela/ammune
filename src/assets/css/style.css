@@ -15730,8 +15730,9 @@ ul.footer-social li a img {
 		display: none;
 	}
 
+
 	.banner-style-eight-heading h2:first-child {
-		color: var(--color-primary);
+		/* color: var(--color-primary); */
 	}
 
 	/* Banner Style Nine */
@@ -17306,11 +17307,11 @@ ul.footer-social li a img {
 	}
 
 	.banner-style-eight-heading h2:first-child {
-		color: var(--color-secondary);
+		/* color: var(--color-secondary); */
 	}
 
 	.bg-dark .banner-style-eight-heading h2:first-child {
-		color: var(--color-primary);
+		/* color: var(--color-primary); */
 	}
 
 	/* Banner Style Nine */
@@ -19901,4 +19902,10 @@ nav.navbar.validnavs.sticked {
 	padding: 8px;
 	margin-bottom: 12px !important;
 	background: #18191b;
+}
+
+@media screen and (min-width: 768px) {
+	.herobannernew {
+		margin-top: 120px;
+	}
 }

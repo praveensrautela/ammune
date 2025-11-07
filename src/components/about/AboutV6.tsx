@@ -136,16 +136,57 @@ const AboutV6 = ({ sectionClass }: DataType) => {
                                             </SplitText>
                                         </h2>
                                     </div>
-                                    <SplitText
-                                        delay={5}
-                                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                        easing="easeOutCubic"
-                                        threshold={0.2}
-                                        rootMargin="-50px"
-                                    >
-                                        API abuses are the most-frequent attack vector resulting in data breaches for enterprise applications. Enterprises of all sizes trust Ammune™ by ammune.ai to keep their APIs safe
-                                    </SplitText>
+                                    <ul>
+                                        <li style={{ listStyleType: 'disc' }}>
+                                            <SplitText
+                                                delay={5}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Unified protection for APIs, AI, and data center environments
+                                            </SplitText>
+                                        </li>
+                                        <li style={{ listStyleType: 'disc' }}>
+                                            <SplitText
+                                                delay={5}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Defense against data poisoning, model theft, and unauthorized access
+                                            </SplitText>
+                                        </li>
+                                        <li style={{ listStyleType: 'disc' }}>
+                                            <SplitText
+                                                delay={5}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Self-learning detection engine that evolves with every new interaction
+                                            </SplitText>
+                                        </li>
+                                        <li style={{ listStyleType: 'disc' }}>
+                                            <SplitText
+                                                delay={5}
+                                                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                                                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                                                easing="easeOutCubic"
+                                                threshold={0.2}
+                                                rootMargin="-50px"
+                                            >
+                                                Real-time, air-gapped protection built for critical infrastructure
+                                            </SplitText>
+                                        </li>
+                                    </ul>
+
                                 </div>
                                 <ul className="service-list">
                                     {ServiceListData.map(service =>
