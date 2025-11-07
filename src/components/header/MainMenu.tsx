@@ -17,7 +17,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                     <Link to="/why-ammuneai" >Why Ammune.AI</Link>
                 </li>
                  <li>
-                    <Link to="/why-ammuneai" >Platform</Link>
+                    <Link to="/platform" >Platform</Link>
                 </li>
                 <li className="dropdown">
                     <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Technology</Link>

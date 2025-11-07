@@ -7,17 +7,21 @@ import aiimage from "../../assets/images/hero-category-bg2.svg";
 const BannerV8 = () => {
     return (
         <>
-            <div className="banner-style-eight-area bg-cover blurry-shape-home-right blurry-shape-home-top-left"
-                style={{ background: "black" }} >
+            <div
+                className="banner-style-eight-area bg-contain blurry-shape-home-right blurry-shape-home-top-left"
+                style={{
+                    background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(${aiimage}) no-repeat center/contain`
+                }}
+            >
                 <div className="light-banner-active  bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/4.jpg)' }} />
-                <div className="container">
-                    <div className="row">
+                <div className="container mt-5">
+                    <div className="row mt-5">
                         <div className="col-xl-2"></div>
-                        <div className="col-xl-8 text-center">
-                            <img src={aiimage} alt="" className="bannerimg" />
+                        <div className="col-xl-8 text-center mt-5">
+                            {/* <img src={aiimage} alt="" className="bannerimg" /> */}
                             <div className="banner-style-eight-heading mt-2">
                                 <div className="banner-title">
-                                    <h4 className="sub-title">AI-Powered API Security</h4>
+                                    {/* <h4 className="sub-title">AI-Powered API Security</h4> */}
                                     <h2>
                                         <SplitText
                                             className="title-left split-text"
@@ -28,10 +32,10 @@ const BannerV8 = () => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Zero Trust  Air Gapped Security
+                                            From APIs to AI - The Immune System for the Digital Age
                                         </SplitText>
                                     </h2>
-                                  
+
                                 </div>
                             </div>
                             <SplitText
@@ -42,16 +46,16 @@ const BannerV8 = () => {
                                 threshold={0.2}
                                 rootMargin="-50px"
                             >
-                                Deploy AI-powered security that operates completely offline. AMMUNE's air-gapped architecture ensures your data never leaves your environment
+                                Ammune.ai protects the digital backbone of modern enterprises - securing APIs, AI workloads, and data centers through adaptive, self-learning, zero-trust defense.
                             </SplitText>
                             <br />
                             <div className="d-flex justify-content-center gap-2">
                                 <div className="defaultbtn ">
-                                    <Link className="" to="/platform"><span>View Platform </span> <i className="fas fa-arrow-right" /> </Link>
+                                    <Link className="" to="/contact"><span>Request a Demo </span> <i className="fas fa-arrow-right" /> </Link>
                                 </div>
 
                                 <div className="defaultbtn supportcenter">
-                                    <Link className="" to="https://support.ammune.ai/portal/en/home" target="_blank"><span>Suport Center </span> <i className="fas fa-arrow-right" /> </Link>
+                                    <Link className="" to="/platform" target="_blank"><span>Learn More  </span> <i className="fas fa-arrow-right" /> </Link>
                                 </div>
                             </div>
 

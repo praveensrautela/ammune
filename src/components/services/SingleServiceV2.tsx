@@ -47,11 +47,11 @@ const SingleServiceV2 = ({ service }: { service: DataType }) => {
                             ))}
                         </ul>
                     </div>
-                    <div className="arrow">
+                    {/* <div className="arrow">
                         <strong className="btn-arrow-xl">
                             <i className="fas fa-long-arrow-right" />
                         </strong>
-                    </div>
+                    </div> */}
                 </div>
 
             </Link>

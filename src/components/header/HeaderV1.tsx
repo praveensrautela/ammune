@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import MainMenu from './MainMenu';
-import logo from '/assets/img/logo.png';
 import logoLight from '/assets/img/Logo-01.avif';
 import useSidebarMenu from "../../hooks/useSidebarMenu";
 import useSubMenuToggle from "../../hooks/useSubMenuToggle";
@@ -24,12 +23,11 @@ const HeaderV1 = () => {
                             <Link className="navbar-brand" to="/">
                                 <img src={logoLight} className="logo logo-display" alt="Logo" />
                                 <img src={logoLight} className="logo logo-scrolled" alt="Logo" />
-                                <img src={logo} className="logo-dark" alt="Logo" />
+                                <img src={logoLight} className="logo-dark" alt="Logo" />
                             </Link>
                         </div>
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
                             <img className="regular-img" src={logoLight} alt="Logo" />
-                            <img className="light-img" src={logo} alt="Logo" />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
                             </button>

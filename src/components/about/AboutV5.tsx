@@ -63,7 +63,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                                     <div className="info">
                                                         <h4>Mission</h4>
                                                         <p>
-                                                            Excellence projects regus remarkably on estimating. Side in so life past are awesome dine. Melancholy themselves.
+                                                            To secure the world’s intelligent infrastructure — ensuring every connection, model, and dataset remains trusted and uncompromised.
                                                         </p>
                                                     </div>
                                                 </li>

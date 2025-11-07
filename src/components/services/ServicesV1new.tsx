@@ -32,7 +32,7 @@ const ServicesV1new = ({ hasTitle, sectionClass }: DataType) => {
                             <div className="row">
                                 <div className="col-md-12 ">
                                     <div className="site-heading text-center">
-                                        <h4 className="sub-title ">Platform Overview</h4>
+                                        <h4 className="sub-title ">A New Era of Security</h4>
                                     </div>
                                     <div className="row mt-3">
                                         <div className="col-md-6 mt-2">
@@ -46,7 +46,7 @@ const ServicesV1new = ({ hasTitle, sectionClass }: DataType) => {
                                                     threshold={0.2}
                                                     rootMargin="-50px"
                                                 >
-                                                    Zero Trust. Maximum Security.
+                                                    Beyond API Protection - Securing the Intelligence Layer
                                                 </SplitText>
                                             </h2>
 
@@ -58,7 +58,8 @@ const ServicesV1new = ({ hasTitle, sectionClass }: DataType) => {
                                                 threshold={0.2}
                                                 rootMargin="-50px"
                                             >
-                                                AMMUNE's air-gapped platform operates entirely within your environment, providing AI-powered security without external dependencies or data exposure.
+                                               The digital world is shifting from connected APIs to intelligent, AI-driven ecosystems.
+                                               Ammune.ai extends its proven API security technology to safeguard AI data centers, inference pipelines, and hybrid workloads — providing a single layer of defense across all environments.
                                             </SplitText>
                                             <br />
                                             <div className="defaultbtn ">
