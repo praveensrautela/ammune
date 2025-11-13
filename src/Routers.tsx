@@ -11,6 +11,8 @@ import Pressreleas from "./pages/blogPages/PressReleasePage";
 import CaseStudies from "./pages/ResourcePages/CaseStudies";
 import UserGuide from "./pages/ResourcePages/UserGuide";
 import Login from "./pages/AuthPages/Login";
+import Partnerlogin from "./pages/AuthPages/partnerportal";
+import PartnerRegister from "./pages/AuthPages/PartnerRegister";
 import Register from "./pages/AuthPages/Register";
 import Resources from './pages/ResourcePages/Resources';
 import ContactUsPage from "./pages/innerPages/ContactUsPage";
@@ -20,6 +22,8 @@ import NotFoundPage from "./pages/innerPages/NotFoundPage";
 import PrivateRoute from "./components/PrivateRoute";
 import Privacypolicy from "./pages/innerPages/Privacypolicy";
 import Termsconditions from "./pages/innerPages/Termsconditions";
+import Partnerportal from "./pages/innerPages/Partnerportalnew";
+
 
 const Routers = () => {
     return (
@@ -32,6 +36,9 @@ const Routers = () => {
                 <Route path='/deployment-types' element={<Deploymenttypes />}></Route>
                 <Route path='/company' element={<Company />}></Route>
                 <Route path='/careers' element={<Career />}></Route>
+                <Route path='/partnerportal' element={<Partnerportal />}></Route>
+
+                
 
                 {/* Protected Routes */}
                 <Route
@@ -61,8 +68,9 @@ const Routers = () => {
 
                 {/* Auth Pages */}
                 <Route path='/login' element={<Login />}></Route>
-                <Route path='/partner-portal' element={<Login />}></Route>
+                <Route path='/partner-portal' element={<Partnerlogin />}></Route>
                 <Route path='/register' element={<Register />}></Route>
+                <Route path='/partner-register' element={<PartnerRegister />}></Route>
                 <Route path='/blog' element={<Blogs />}></Route>
                 <Route path='/blog/:slug' element={<BlogSinglePage />}></Route>
                 <Route path='/contact' element={<ContactUsPage />}></Route>
@@ -71,7 +79,7 @@ const Routers = () => {
                 <Route path='/terms-and-conditions' element={<Termsconditions />}></Route>
                 <Route path='/privacy-policy' element={<Privacypolicy />}></Route>
 
-                
+
                 <Route path='*' element={<NotFoundPage />}></Route>
             </Routes>
         </>

@@ -14,7 +14,7 @@ const ProjectIdeaV1 = () => {
                                 </div>
                                 <div className="info">
                                     <h4>Phone</h4>
-                                    <a className="phone-link" href="tel:+1(201) 885-4585">+1(201) 885-4585</a> <br />
+                                    <a className="phone-link" href="tel:+1 (347) 435-4031">+1 (347) 435-4031</a> <br />
                                 </div>
                             </li>
                             <li>
@@ -32,7 +32,8 @@ const ProjectIdeaV1 = () => {
                                 </div>
                                 <div className="info">
                                     <h4>Address</h4>
-                                    <a> 324 east 9th street Brooklyn NY 11218</a>
+                                    <a> 60 Park Place, 20th floor
+                                        Newark NJ 07102</a>
                                 </div>
 
                             </li>

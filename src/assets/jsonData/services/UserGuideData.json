@@ -15,42 +15,26 @@
         "id": 3,
         "serviceName": "Ammune - Installation Guide",
         "count": "01",
-        "link": "Ammune installation guide_24-03-25.pdf"
+        "link": "Ammune installation guide 2025 NY.pdf"
     },
-    {
+   
+     {
         "id": 4,
-        "serviceName": "Solution brief-  Stay ahead of hackers",
-        "count": "02",
-        "link": "SolutionBrief_Stay ahead of attackers-03-25.pdf"
-    },
-    {
-        "id": 5,
-        "serviceName": "Product brief - Posture management",
-        "count": "02",
-        "link": "ProductBrief_Posture Management_24-03-25.pdf"
-    },
-    {
-        "id": 6,
-        "serviceName": "Product brief - Discovery",
-        "count": "02",
-        "link": "ProductBrief_Discovery_24-03-25.pdf"
-    },
-    {
-        "id": 7,
-        "serviceName": "Product brief - Runtime protection",
-        "count": "02",
-        "link": "ProductBrief_Runtime Protection_24-03-25.pdf"
-    },
-     {
-        "id": 8,
-        "serviceName": "Product brief - Security testing",
-        "count": "02",
-        "link": "ProductBrief_Security Testing_24-03-25.pdf"
-    },
-     {
-        "id": 9,
         "serviceName": "Ammune - Solution Comparison",
         "count": "02",
         "link": "Ammune_ASC.pdf"
+    },
+    {
+        "id": 5,
+        "serviceName": "Ammune Vs Akamai",
+        "count": "02",
+        "link": "Ammune_vs_Akamai_Comparison.pdf"
+    },
+    {
+        "id": 6,
+        "serviceName": "Ammune - Business Case for BFSI",
+        "count": "02",
+        "link": "Ammune.ai Business Case for BFSI.pdf"
     }
+   
 ]

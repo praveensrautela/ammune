@@ -16,13 +16,14 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                 <div className="contact-style-one-info">
                                     <ul className="contact-address">
                                         <li>
-                                            <a className="phone-link" href="tel:+1(201) 885-4585"><i className="fas fa-user-headset" /> +1(201) 885-4585</a>
+                                            <a className="phone-link" href="tel:+1 (347) 435-4031"><i className="fas fa-user-headset" /> +1 (347) 435-4031</a>
                                         </li>
                                         <li>
                                             <div className="info">
                                                 <h4>Location</h4>
                                                 <p>
-                                                    324 east 9th street Brooklyn NY 11218
+                                                    60 Park Place, 20th floor
+                                                    Newark NJ 07102
                                                 </p>
                                             </div>
                                         </li>
