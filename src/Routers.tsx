@@ -11,7 +11,7 @@ import Pressreleas from "./pages/blogPages/PressReleasePage";
 import CaseStudies from "./pages/ResourcePages/CaseStudies";
 import UserGuide from "./pages/ResourcePages/UserGuide";
 import Login from "./pages/AuthPages/Login";
-import Partnerlogin from "./pages/AuthPages/partnerportal";
+import Partnerlogin from "./pages/AuthPages/Partnerportal";
 import PartnerRegister from "./pages/AuthPages/PartnerRegister";
 import Register from "./pages/AuthPages/Register";
 import Resources from './pages/ResourcePages/Resources';

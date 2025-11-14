@@ -5,7 +5,7 @@ import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ThemeDark from "../../components/switcher/ThemeDark";
 
-const Partnreportal = () => {
+const Partnerportal = () => {
     return (
         <>
             <Helmet>
@@ -23,4 +23,4 @@ const Partnreportal = () => {
     );
 };
 
-export default Partnreportal;
+export default Partnerportal;

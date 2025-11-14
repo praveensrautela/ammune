@@ -23,7 +23,7 @@ const ProjectIdeaV1 = () => {
                                 </div>
                                 <div className="info">
                                     <h4>Official Email</h4>
-                                    <a href="mailto:info@ammune.ai">info@ammune.ai</a>
+                                    <a href="mailto:contact@ammune.ai">contact@ammune.ai</a>
                                 </div>
                             </li>
                             <li className="mt-3">
