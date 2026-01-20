@@ -23,6 +23,8 @@ import PrivateRoute from "./components/PrivateRoute";
 import Privacypolicy from "./pages/innerPages/Privacypolicy";
 import Termsconditions from "./pages/innerPages/Termsconditions";
 import Partnerportal from "./pages/innerPages/Partnerportalnew";
+import Apisecurity from "./pages/innerPages/Apisecurity.tsx";
+
 
 
 const Routers = () => {
@@ -37,6 +39,8 @@ const Routers = () => {
                 <Route path='/company' element={<Company />}></Route>
                 <Route path='/careers' element={<Career />}></Route>
                 <Route path='/partnerportal' element={<Partnerportal />}></Route>
+                <Route path='/api-security' element={<Apisecurity />}></Route>
+
 
                 
 
