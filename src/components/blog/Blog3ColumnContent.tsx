@@ -14,6 +14,7 @@ export interface BlogType {
     description: string;
     featured_image: string;
     created_at: string;
+    category: string;
 }
 
 const Blog3ColumnContent = ({ sectionClass }: DataType) => {
@@ -35,6 +36,7 @@ const Blog3ColumnContent = ({ sectionClass }: DataType) => {
                         description: blog.description,
                         featured_image: blog.featured_image,
                         created_at: blog.created_at,
+                        category: blog.category,
                     }));
                     setBlogs(formattedBlogs);
                 } else {

@@ -9,7 +9,9 @@ const Blog3ColumnPage = () => {
     return (
         <>
             <Helmet>
-                <title>Ammune.ai | API Security</title>
+                <title> API Security Tips, Trends & Expert Advice-Ammune Blogs</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Explore Ammune AI blogs for API security tips, trends, expert advice, threat prevention, and guidance on securing and integrating your APIs." />
             </Helmet>
 
             <LayoutV1>

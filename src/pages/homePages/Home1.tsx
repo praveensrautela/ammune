@@ -23,7 +23,9 @@ const Home1 = () => {
     return (
         <>
             <Helmet>
-                <title>Ammune.ai | API Security</title>
+                <title>Application (API) Security Solutions  Tools & services  </title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Ammune  delivers API security tools and services across the full API lifecycle, using real-time analytics to stop threats, abuse &  business logic attacks." />
             </Helmet>
             <div className="smooth-scroll-container">
                 <HeaderV1 />

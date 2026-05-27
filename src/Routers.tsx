@@ -76,6 +76,7 @@ const Routers = () => {
                 <Route path='/register' element={<Register />}></Route>
                 <Route path='/partner-register' element={<PartnerRegister />}></Route>
                 <Route path='/blog' element={<Blogs />}></Route>
+                <Route path='/blog/:category/:slug' element={<BlogSinglePage />}></Route>
                 <Route path='/blog/:slug' element={<BlogSinglePage />}></Route>
                 <Route path='/contact' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>

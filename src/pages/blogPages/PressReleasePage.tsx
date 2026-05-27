@@ -11,8 +11,10 @@ import Press3 from "../../../public/assets/img/banner/logos_0006_traxion-logo.pn
 const PressReleasePage = () => {
     return (
         <>
-            <Helmet>
-                <title>Ammune.ai | API Security</title>
+           <Helmet>
+                <title>Press Releases-Ammune AI</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Stay updated with the latest news, announcements, and official updates on Ammune's  Press Releases page, featuring company milestones, product launches, and insights." />
             </Helmet>
 
             <LayoutV1>
@@ -21,6 +23,40 @@ const PressReleasePage = () => {
                 <div className={`blog-area blog-grid-colum default-padding bg-gray`}>
                     <div className="container">
                         <div className="row">
+
+                              <div className="col-lg-4 col-md-6 mb-50" >
+                                <div className="home-blog-style-one">
+                                    <div className="thumb">
+                                        <Link to="">
+                                            <div className="bg-white  mb-3">
+                                                <img
+                                                    src={'https://img.einnews.com/medium/1116089/ammune-ai-ai-governance-platfor.jpeg'}
+                                                    height={100}
+                                                    alt="ammune.ai expands into Australia and New Zealand signing a strategic partnership with Excelsa"
+                                                    style={{ 'height': '100px' }}
+                                                />
+                                            </div>
+                                        </Link>
+                                        <div className="info">
+                                            <h2 className="post-title">
+                                                <Link target="blank" to="https://world.einnews.com/pr_news/913903609/ammune-ai-launches-first-runtime-ai-governance-platform-to-discover-and-map-shadow-ai">Ammune.ai Launches First Runtime AI Governance Platform to Discover and Map Shadow AI</Link>
+                                            </h2>
+                                            <p className="text-center" style={{ "color": "#ee9304" }}>June 07, 2023</p>
+                                            <div
+                                                className="descriptionblog"
+                                            />
+                                            “The partnership with Excelsa allows us to leverage their deep local knowledge and relationships, creating a powerful synergy to address the unique challenges in the Australian and New Zealand markets.”
+                                            <br />
+
+                                            <div className="defaultbtn text-center">
+                                                <Link className="" target="blank" to="https://world.einnews.com/pr_news/913903609/ammune-ai-launches-first-runtime-ai-governance-platform-to-discover-and-map-shadow-ai"><span>Read More</span> <i className="fas fa-arrow-right" /> </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <div className="col-lg-4 col-md-6 mb-50" >
                                 <div className="home-blog-style-one">
                                     <div className="thumb">
@@ -38,20 +74,21 @@ const PressReleasePage = () => {
                                             <h2 className="post-title">
                                                 <Link to="">ammune.ai expands into Australia and New Zealand signing a strategic partnership with Excelsa</Link>
                                             </h2>
-                                            <p className="text-center" style={{ "color": "#ee9304" }}>June 07, 2023</p>
+                                            <p className="text-center" style={{ "color": "#ee9304" }}>May 25, 2026</p>
                                             <div
                                                 className="descriptionblog"
                                             />
-                                            “The partnership with Excelsa allows us to leverage their deep local knowledge and relationships, creating a powerful synergy to address the unique challenges in the Australian and New Zealand markets.”
+                                            “Ammune.ai introduces a non-intrusive AI governance platform that discovers, maps, and monitors all AI activity and Shadow AI in real time.”
                                             <br />
 
                                             <div className="defaultbtn text-center">
-                                                <Link className="" to="#"><span>Read More</span> <i className="fas fa-arrow-right" /> </Link>
+                                                <Link className="" to=""><span>Read More</span> <i className="fas fa-arrow-right" /> </Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
 
                             <div className="col-lg-4 col-md-6 mb-50" >
                                 <div className="home-blog-style-one">

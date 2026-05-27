@@ -16,6 +16,11 @@ interface BlogType {
     featured_image: string;
     created_at: string;
     author?: string;
+    keywords?: string;
+    metadescription?: string;
+    category?: string;
+    metatitle?: string;
+
 }
 
 const BlogSinglePage = () => {
@@ -48,8 +53,31 @@ const BlogSinglePage = () => {
 
     return (
         <>
+
             <Helmet>
-                <title>{blogData?.title ? `${blogData.title} | Ammune.ai` : 'Blog Details | Ammune.ai'}</title>
+                <title>
+                    {blogData?.metatitle
+                        ? `${blogData.metatitle} | Ammune.ai`
+                        : 'Blog Details | Ammune.ai'}
+                </title>
+
+                <meta
+                    name="keywords"
+                    content={
+                        blogData?.keywords
+                            ? blogData.keywords
+                            : 'API security platform, enterprise API protection, API threat detection, API compliance'
+                    }
+                />
+
+                <meta
+                    name="description"
+                    content={
+                        blogData?.metadescription
+                            ? blogData.metadescription
+                            : 'Ammune delivers API security tools and services across the full API lifecycle, using real-time analytics to stop threats, abuse & business logic attacks.'
+                    }
+                />
             </Helmet>
 
             <LayoutV1>

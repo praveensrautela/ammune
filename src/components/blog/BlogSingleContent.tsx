@@ -35,7 +35,6 @@ const BlogSingleContent = ({ blogInfo, sectionClass }: BlogSingleProps) => {
                                             />
                                         </div>
                                         <div className="info">
-                                            <h2 className="post-title">{title}</h2>
                                             <div dangerouslySetInnerHTML={{ __html: description || "" }} />
                                         </div>
                                     </div>
@@ -45,6 +44,32 @@ const BlogSingleContent = ({ blogInfo, sectionClass }: BlogSingleProps) => {
                     </div>
                 </div>
             </div>
+            <style>{`
+    ul, li {
+        list-style-type: disc;
+    }
+        table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+}
+
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+}
+
+`}</style>
+
         </div>
     );
 };

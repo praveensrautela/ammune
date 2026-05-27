@@ -12,8 +12,10 @@ import ServicesV2 from "../../components/services/ServicesV2";
 const Platform = () => {
     return (
         <>
-            <Helmet>
-                <title>Ammune.ai | API Security</title>
+          <Helmet>
+                <title>Application For Protection  API Attack - Ammune Ai</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Explore Ammune’s application protection platform for bot, DDoS, and business logic attacks, delivering runtime protection to keep your business safe ." />
             </Helmet>
 
             <LayoutV1>

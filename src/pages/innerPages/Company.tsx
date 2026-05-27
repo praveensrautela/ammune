@@ -13,7 +13,9 @@ const Platform = () => {
     return (
         <>
             <Helmet>
-                <title>Ammune.ai | API Security</title>
+                <title>About API Security Services Provider-Ammune AI</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Ammune.ai protects organizations, applications, and users from API-borne attacks with AI-driven security and innovative, award-winning technology." />
             </Helmet>
 
             <LayoutV1>

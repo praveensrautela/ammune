@@ -12,8 +12,10 @@ import AboutV3 from "../../components/about/AboutV3";
 const Platform = () => {
     return (
         <>
-            <Helmet>
-                <title>Ammune.ai | API Security</title>
+             <Helmet>
+                <title>API Security Deployment Type For  Protection-Ammune Ai</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Explore API security deployment types for robust protection with Ammune AI, ensuring secure, scalable, and efficient defense against evolving API threats." />
             </Helmet>
 
             <LayoutV1>

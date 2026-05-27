@@ -15,8 +15,10 @@ import DarkClass from "../../components/classes/DarkClass";
 const Platform = () => {
     return (
         <>
-            <Helmet>
-                <title>Ammune.ai | API Security</title>
+           <Helmet>
+                <title>API Security Technology Based AI/ML-Ammune AI</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Ammune's Api Security technology based on AI/ML designed to protect  APIs from various security threats and advanced attacks in real time." />
             </Helmet>
 
             <LayoutV1>

@@ -9,7 +9,9 @@ const Login = () => {
     return (
         <>
             <Helmet>
-                <title>Ammune.ai | API Security</title>
+                <title>Login-Ammune Ai</title>
+                <meta name="keywords" content="API security platform, enterprise API protection, API threat detection, API compliance" />
+                <meta name="description" content="Sign up at Ammune AI to receive industry updates, research, trends, company news, event info, and exclusive goodies delivered straight to you!" />
             </Helmet>
 
             <LayoutV1>
